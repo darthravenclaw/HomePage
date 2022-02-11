@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="swadeMasterStyle.css" />
+    <script src="./main.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="header">
+      <div id="searchContainer">
+        <label for="search">Search Powers</label>
+        <input type="search" name="search" id="search" />
+      </div>
+      <div class="catContainer" id="sortContainer">
+        <div class="catDivHeader">Sorted</div>
+        <div class="sortDiv selected" data-value="alphabetical">
+          Alphabetical
+        </div>
+        <div class="sortDiv" data-value="rank">Rank</div>
+      </div>
+      <div class="catContainer" id="spellBookContainer">
+        <div class="catDivHeader">List</div>
+        <div class="spellDiv selected" data-value="all">All</div>
+        <div class="spellDiv" data-value="mySpellBook">My Spell Book</div>
+      </div>
+      <div class="bookContainer" id="bookContainer">
+        <div class="catDivHeader">Books</div>
+        <div class="catDiv" data-value="main">Main</div>
+        <div class="catDiv" data-value="deadlands">Deadlands</div>
+        <div class="catDiv" data-value="deadlands companion">
+          Deadlands Companion
+        </div>
+        <div class="catDiv" data-value="deadlands lost colony">
+          Deadlands Lost Colony
+        </div>
+      </div>
+      <div class="catContainer" id="rankContainer">
+        <div class="catDivHeader">Rank</div>
+        <div class="catDiv" data-value="Novice">Novice</div>
+        <div class="catDiv" data-value="Seasoned">Seasoned</div>
+        <div class="catDiv" data-value="Veteran">Veteran</div>
+        <div class="catDiv" data-value="Heroic">Heroic</div>
+      </div>
+      <div class="catContainer" id="classContainer">
+        <div class="catDivHeader">Classes</div>
+        <div class="catDiv" data-value="syker">Syker</div>
+        <div class="catDiv" data-value="huckster">Huckster</div>
+        <div class="catDiv" data-value="anouk shaman">Anouk Shaman</div>
+        <div class="catDiv" data-value="breaker">Breaker</div>
+        <div class="catDiv" data-value="mad scientist">Mad Scientist</div>
+        <div class="catDiv" data-value="shaman">Shaman</div>
+        <div class="catDiv" data-value="metal mage">Metal Mage</div>
+        <div class="catDiv" data-value="voodooist">Voodooist</div>
+        <div class="catDiv" data-value="witch">Witch</div>
+      </div>
+    </div>
+    <div class="powerCardHolder" data-power-cards-container></div>
+  </body>
+  <template data-power-card-template>
+    <div class="powerCard">
+      <div class="cardTop data-power-top">
+        <div class="name" data-power-name>test</div>
+        <button class="spellBtn" data-power-mySpellBook></button>
+      </div>
+      <div class="classes" data-power-classes>test</div>
+      <div class="rank" data-power-rank>test</div>
+      <div class="cost" data-power-cost>test</div>
+      <div class="duration" data-power-duration>test</div>
+      <div class="range" data-power-range>test</div>
+      <div class="trappings" data-power-trappings>test</div>
+      <div class="disc" data-power-disc>this is a test</div>
+    </div>
+  </template>
+  <template data-mod-card-template>
+    <div class="modCard">
+      <div class="modName" data-mod-name>test</div>
+      <div class="cost" data-mod-cost>test</div>
+      <div class="disc" data-mod-disc>this is a test</div>
+    </div>
+  </template>
+</html>

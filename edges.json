@@ -1,0 +1,1369 @@
+[
+  {
+    "name": "Alertness",
+    "book": "Main",
+    "reqText": "Novice",
+    "req": [""],
+    "rank": "Novice",
+    "category": "Background",
+    "desc": "Not much gets by this hero. He’s very observant and perceptive, and adds +2 to his Notice rolls to hear, see, or otherwise sense the world around him."
+  },
+  {
+    "name": "Ambidextrous",
+    "book": "Main",
+    "reqText": "Novice, Agility d8+",
+    "req": ["Agility"],
+    "rank": "Novice",
+    "category": "Background",
+    "desc": "Your warrior is as deft with his left hand as he is with his right. He ignores the Off-Hand penalty (see page 104). If holding a weapon in each hand, Ambidextrous characters may stack Parry bonuses (if any) from both weapons."
+  },
+  {
+    "name": "Arcane Background",
+    "book": "Main",
+    "reqText": "Novice",
+    "req": [""],
+    "rank": "Novice",
+    "category": "Background",
+    "desc": "Exposure to strange energies, studies at a magical school, or gifts from divine or spiritual entities sometimes grant champions their own powers and abilities. Such events lead to the Arcane Background Edge and the development of supernatural abilities. See Chapter Five for a complete description of Arcane Backgrounds, powers, and how to use them."
+  },
+  {
+    "name": "Arcane Resistance",
+    "book": "Main",
+    "reqText": "Novice, Spirit d8+",
+    "req": ["Spirit"],
+    "rank": "Novice",
+    "category": "",
+    "desc": "Magic and the supernatural hold little sway with this individual. Whether by nature, heritage, or training he’s particularly resistant to magic, psionics, weird science, and other supernatural energies. Arcane skills targeting the hero suffer a −2 penalty (even if cast by allies!) and magical damage is reduced by 2 as well. "
+  },
+  {
+    "name": "Improved Arcane Resistance",
+    "book": "Main",
+    "reqText": "Novice, Arcane",
+    "req": ["Arcane"],
+    "rank": "Novice",
+    "category": "Background",
+    "desc": "Resistance As above, but the penalty to the arcane skill roll and damage are increased to 4."
+  },
+  {
+    "name": "Aristocrat",
+    "book": "Main",
+    "reqText": "Novice",
+    "req": [""],
+    "rank": "Novice",
+    "category": "Background",
+    "desc": "This individual was born into privilege or came into it later in life. She may or may not have money (the Rich or Filthy Rich Edge), but she still walks in the elite social circles of the setting. Aristocrats add +2 to Persuasion when Networking (see page 133) with the local elite, captains of industry, nobles, or other aristocrats. They also add +2 to Common Knowledge rolls made to know the etiquette of the upper class, recognize family trees or heraldry, or recall gossip concerning others of their station."
+  },
+  {
+    "name": "Attractive",
+    "book": "Main",
+    "reqText": "Novice, Vigor d6+",
+    "req": ["Vigor"],
+    "rank": "Novice",
+    "category": "Background",
+    "desc": "It’s no secret people are more willing to help those they find physically attractive. Your character adds +1 to Performance and Persuasion rolls if the target is attracted to his general type (gender, sex, species, etc.). Very Attractive REQUIREMENTS: Novice, Attractive Your hero is drop-dead gorgeous. He increases his Performance and Persuasion bonus to +2. "
+  },
+  {
+    "name": "Berserk",
+    "book": "Main",
+    "reqText": "Novice",
+    "req": [""],
+    "rank": "Novice",
+    "category": "Background",
+    "desc": "Berserkers become wild and nearly uncontrollable when the “red rage” takes them, but they are deadly killing machines as well! Immediately after suffering a Wound or a Shaken result (from physical damage only), your hero must make a Smarts roll or go Berserk. She can voluntarily fail this check if she likes. Going Berserk has the following effects: </br>-FURY: The character’s Strength increases a die type and every melee attack must be a Wild Attack (see page 109). She cannot use any skills that require wit or concentration (GM’s call). She may scream out threats and use Intimidation, for example. </br>-ENRAGED: Adrenaline and rage fuel the berserker’s muscles, adding +2 to Toughness. She ignores one level of Wound penalties (this stacks with any other abilities that reduce Wound penalties). </br>-RECKLESS ABANDON: Anytime a berserker rolls a Critical Failure on a Fighting check, she hits a random target within range of her attack (not the intended target), friend or foe. If there are no applicable targets, the blow simply misses, smashes nearby objects, etc. After five consecutive rounds of berserk fury, the hero takes a level of Fatigue. At ten rounds, she takes another level of Fatigue and the rage ends. She may also choose to end her rage at any time by making a Smarts −2 roll (as a free action; possibly avoiding Fatigue if she manages to end her rage before it’s incurred!). Start the count anew if she goes berserk again, even in the same battle. "
+  },
+  {
+    "name": "Brave",
+    "book": "Main",
+    "reqText": "Novice, Spirit d6+",
+    "req": ["Spirit"],
+    "rank": "Novice",
+    "category": "Background",
+    "desc": "Those with this Edge have learned to master their fear, or have dealt with so many horrors they’ve become jaded. These valiant explorers add +2 to Fear checks and subtract 2 from Fear Table results (see page 124). "
+  },
+  {
+    "name": "Brawny",
+    "book": "Main",
+    "reqText": "Novice, Strength d6+, Vigor d6+",
+    "req": ["Strength", "Vigor"],
+    "rank": "Novice",
+    "category": "Background",
+    "desc": "Your bruiser is very large or very fit. Her Size increases by +1 (and therefore Toughness by 1) and she treats her Strength as one die type higher when determining Encumbrance (page 67) and Minimum Strength to use armor, weapons, and equipment without a penalty (page 66). Brawny can’t increase a character’s Size above +3. "
+  },
+  {
+    "name": "Brute",
+    "book": "Main",
+    "reqText": "Novice, Strength d6+, Vigor d6+",
+    "req": ["Strength", "Vigor"],
+    "rank": "Novice",
+    "category": "Background",
+    "desc": "Brutes focus on core strength and fitness over coordination and flexibility. They treat Athletics as linked to Strength instead of Agility for purposes of Advancement. The character may also resist Athletics Tests with Strength if she chooses. Finally, Brutes increase the Short Range of any thrown item by +1. Double that for the adjusted Medium Range, and double again for Long Range. If a thrown item’s Range is 3/6/12, for example, a Brute’s Range is 4/8/16. "
+  },
+  {
+    "name": "Charismatic",
+    "book": "Main",
+    "reqText": "Novice, Spirit d8+",
+    "req": ["Spirit"],
+    "rank": "Novice",
+    "category": "Background",
+    "desc": "Your hero is likable for some reason. She may be trustworthy or kind, or might just exude confidence and goodwill. You get one free reroll on Persuasion rolls."
+  },
+  {
+    "name": "Elan",
+    "book": "Main",
+    "reqText": "Novice, Spirit d8+",
+    "req": ["Spirit"],
+    "rank": "Novice",
+    "category": "Background",
+    "desc": "Elan means energy or spirit. Those who have it rise to the occasion when the going gets toughest. When you spend a Benny to reroll a Trait, add +2 to the total. The bonus applies only when rerolling. It doesn’t apply to damage rolls (since they’re not Trait rolls), nor does it apply to Soak rolls unless you’re using another Benny to reroll the Vigor check. "
+  },
+  {
+    "name": "Fame",
+    "book": "Main",
+    "reqText": "Novice",
+    "req": [""],
+    "rank": "Novice",
+    "category": "Background",
+    "desc": "Your character is a minor celebrity of some sort. She might be a popular bard known in a particular fiefdom, a minor rock star, or a beloved B-movie actor. She makes double the normal fee when performing for pay (see Performance, page 32). She can also use her celebrity to add +1 to Persuasion rolls if a target is friendly and knows who she is (a Common Knowledge roll modified by how likely the individual is to know the celebrity). The downside of Fame is that the individual is often recognized, others frequently want something from her, she may be followed by fans or admirers, or she may not be able to shirk obligations, performances, or other duties without causing trouble for herself. "
+  },
+  {
+    "name": "Famous",
+    "book": "Main",
+    "reqText": "Seasoned, Fame",
+    "req": ["Fame"],
+    "rank": "Seasoned",
+    "category": "Background",
+    "desc": "Your hero is truly famous. She’s wellknown in a large circle such as a country, a large industry, or a popular medium (film or television, the music industry). She makes 5   the normal fee when performing and adds +2 to Persuasion rolls when influencing friendly individuals who know who she is. The price is higher for the truly Famous, too, with more demands on her time, obligations, rivals, scandals, and an inability to operate in crowds without being recognized. "
+  },
+  {
+    "name": "Fast Healer",
+    "book": "Main",
+    "reqText": "Novice, Vigor d8+",
+    "req": ["Vigor"],
+    "rank": "Novice",
+    "category": "Background",
+    "desc": "Those with this blessing add +2 to Vigor rolls for natural healing, and check every three days instead of five (see Healing, page 96). "
+  },
+  {
+    "name": "Fleet-Footed",
+    "book": "Main",
+    "reqText": "Novice, Agility d6+",
+    "req": ["Agility"],
+    "rank": "Novice",
+    "category": "Background",
+    "desc": "The hero’s Pace is increased by +2 and his running die increases one step (from d6 to d8, for example)."
+  },
+  {
+    "name": "Linguist",
+    "book": "Main",
+    "reqText": "Novice, Smarts d6+",
+    "req": ["Smarts"],
+    "rank": "Novice",
+    "category": "Background",
+    "desc": "This world-traveler has an ear for languages. She begins play knowing half her Smarts die type in different Language skills of her choice at d6 (see the Language skill on page 31). "
+  },
+  {
+    "name": "Luck",
+    "book": "Main",
+    "reqText": "Novice",
+    "req": [""],
+    "rank": "Novice",
+    "category": "Background",
+    "desc": "The adventurer seems to be blessed by fate, karma, the gods, or whatever external forces he believes in (or believe in him!). He draws one extra Benny at the beginning of each game session, allowing him to succeed at important tasks more often than most, and survive incredible dangers. "
+  },
+  {
+    "name": "Great Luck",
+    "book": "Main",
+    "reqText": "Novice, Luck",
+    "req": ["Luck"],
+    "rank": "Novice",
+    "category": "Background",
+    "desc": "The player draws two extra Bennies instead of one at the start of each session. "
+  },
+  {
+    "name": "Quick",
+    "book": "Main",
+    "reqText": "Novice, Agility d8+",
+    "req": ["Agility"],
+    "rank": "Novice",
+    "category": "Background",
+    "desc": "Quick characters have lightning-fast reflexes and a cool head. Whenever you are dealt an Action Card of Five or lower, you may discard it and draw again until you get a card higher than Five. Characters with both the Level Headed and Quick Edges first draw their additional card and choose which to take. If that card is a Five or less, the Quick Edge may be used to draw a replacement until it’s Six or higher. "
+  },
+  {
+    "name": "Rich",
+    "book": "Main",
+    "reqText": "Novice",
+    "req": [""],
+    "rank": "Novice",
+    "category": "Background",
+    "desc": "Whether the individual was born with a silver spoon in his mouth or earned it through hard work, he’s got more money than most. Rich heroes start with three times the normal starting funds for the setting. If a regular income is appropriate for this setting, the hero receives the modern-day equivalent of a $150,000 annual salary. "
+  },
+  {
+    "name": "Filthy Rich",
+    "book": "Main",
+    "reqText": "Novice, Rich",
+    "req": ["Rich"],
+    "rank": "Novice",
+    "category": "Background",
+    "desc": "This fortunate individual is very wealthy. He has five times the starting funds for the setting during character creation and, if appropriate, a yearly income after responsibilities of around $500,000. Even wealthier characters may exist, but unless there’s a game effect it probably shouldn’t matter. This should be worked out with the GM and come with many more assets as well as onerous responsibilities. Combat Edges"
+  },
+  {
+    "name": "Block",
+    "book": "Main",
+    "reqText": "Seasoned, Fighting d8+",
+    "req": ["Fighting"],
+    "rank": "Seasoned",
+    "category": "Combat",
+    "desc": "Through hard-fought experience your hero has learned to defend himself in vicious hand-to-hand combat. His Parry increases by +1 and any Gang Up bonus against him is reduced by one. "
+  },
+  {
+    "name": "Improved Block",
+    "book": "Main",
+    "reqText": "Veteran,",
+    "req": [""],
+    "rank": "Veteran",
+    "category": "Combat",
+    "desc": "The hero’s Parry bonus is now +2 and the Gang Up bonus against him is reduced by 2."
+  },
+  {
+    "name": "Brawler",
+    "book": "Main",
+    "reqText": "Novice, Strength d8+, Vigor d8+",
+    "req": ["Strength", "Vigor"],
+    "rank": "Novice",
+    "category": "Combat",
+    "desc": "His fists hit like hammers or his talons cut like scythes. His body feels like it’s made of stone. Brawlers increase their Toughness by 1 and roll Strength +d4 when hitting with their fists or feet (or claws if they have them). If they already have a damage die from Claws (page 18), the Martial Artist Edge, etc., increase the damage die type by one instead. The Brawler Edge doesn’t make the character’s fists Natural Weapons (page 104). "
+  },
+  {
+    "name": "Bruiser",
+    "book": "Main",
+    "reqText": "Seasoned, Brawler",
+    "req": ["Brawler"],
+    "rank": "Seasoned",
+    "category": "Combat",
+    "desc": "The fighter increases his Toughness an additional +1, and the damage caused with his fists or claws another die type. "
+  },
+  {
+    "name": "Calculating",
+    "book": "Main",
+    "reqText": "Novice, Smarts d8+",
+    "req": ["Smarts"],
+    "rank": "Novice",
+    "category": "Combat",
+    "desc": "A few seconds to study your foe’s actions gives your hero a major advantage. When his Action Card is a Five or less, he ignores up to 2 points of penalties on one action that turn, which can include Multi-Action, cover, Range, and even Wound penalties. "
+  },
+  {
+    "name": "Combat Reflexes",
+    "book": "Main",
+    "reqText": "Seasoned",
+    "req": [""],
+    "rank": "Seasoned",
+    "category": "Combat",
+    "desc": "Your warrior recovers quickly from shock and trauma. He adds +2 to his rolls when attempting to recover from being Shaken or Stunned. "
+  },
+  {
+    "name": "Counterattack",
+    "book": "Main",
+    "reqText": "Seasoned, Fighting d8+",
+    "req": ["Fighting"],
+    "rank": "Seasoned",
+    "category": "Combat",
+    "desc": "Fighters with this Edge deal instant punishment for an enemy’s mistakes. Once per turn (if not Shaken or Stunned), the character receives a Free Attack (page 101) against one failed Fighting attack against him. The counterattack takes place immediately (before other hits against the hero on the same Action Card, if any). "
+  },
+  {
+    "name": "Improved Counterattack",
+    "book": "Main",
+    "reqText": "Veteran, Counterattack",
+    "req": ["Counterattack"],
+    "rank": "Veteran",
+    "category": "Combat",
+    "desc": "As above but the hero gets a Free Attack against up to three failed attacks each turn. "
+  },
+  {
+    "name": "Dead Shot",
+    "book": "Main",
+    "reqText": "Wild Card, Novice, Athletics or Shooting d8+ ",
+    "req": ["Wild Card", "Athletics", "Shooting"],
+    "rank": "Novice",
+    "category": "Combat",
+    "desc": "When your Action Card is a Joker, double the total damage of your first successful Athletics (throwing) or Shooting roll this round. "
+  },
+  {
+    "name": "Dodge",
+    "book": "Main",
+    "reqText": "Seasoned, Agility d8+",
+    "req": ["Agility"],
+    "rank": "Seasoned",
+    "category": "Combat",
+    "desc": "The hero can anticipate attacks or move erratically under fire. Unless the victim of a surprise attack and taken completely unaware, Dodge subtracts 2 from all ranged attacks made against the character. Dodge does not stack with actual cover, however. "
+  },
+  {
+    "name": "Improved Dodge",
+    "book": "Main",
+    "reqText": "Seasoned, Dodge",
+    "req": ["Dodge"],
+    "rank": "Seasoned",
+    "category": "Combat",
+    "desc": "The hero adds +2 when Evading area effect attacks. See Evasion on page 100. "
+  },
+  {
+    "name": "Double Tap",
+    "book": "Main",
+    "reqText": "Seasoned, Shooting d6+",
+    "req": ["Shooting"],
+    "rank": "Seasoned",
+    "category": "Combat",
+    "desc": "Experienced firearms experts fire two shots in rapid succession without spoiling their aim. Double Tap can only be used with weapons that have a Rate of Fire of 1 and can fire two shots without needing to manually reload. It adds +1 to hit and damage at the cost of one extra bullet. This is per action, so a shooter can Double Tap more than once if she performs a Multi-Action. Double Tap cannot be combined with Rapid Fire. If used with a weapon capable of Three- Round Burst (see page 67), it adds +2 to Shooting and damage instead of +1 and expends six bullets. "
+  },
+  {
+    "name": "Extraction",
+    "book": "Main",
+    "reqText": "Novice, Agility d8+",
+    "req": ["Agility"],
+    "rank": "Novice",
+    "category": "Combat",
+    "desc": "When a character withdraws from melee, adjacent attackers get a free Fighting attack against him (see Withdrawing from Melee on page 109). This is a very dangerous proposition for most, but not your wily champion. When moving away from adjacent foes, one of them (player’s choice), doesn’t get his free Fighting attack."
+  },
+  {
+    "name": "Improved Extraction",
+    "book": "Main",
+    "reqText": "Seasoned, Extraction",
+    "req": ["Extraction"],
+    "rank": "Seasoned",
+    "category": "Combat",
+    "desc": "Up to three foes’ (player’s choice) don’t get attacks when your warrior moves out of melee with them. "
+  },
+  {
+    "name": "Feint",
+    "book": "Main",
+    "reqText": "Novice, Fighting d8+",
+    "req": ["Fighting"],
+    "rank": "Novice",
+    "category": "Combat",
+    "desc": "When performing a Test (page 108) with the Fighting skill, you can choose to make the foe resist with Smarts instead of Agility. "
+  },
+  {
+    "name": "First Strike",
+    "book": "Main",
+    "reqText": "Novice, Agility d8+",
+    "req": ["Agility"],
+    "rank": "Novice",
+    "category": "Combat",
+    "desc": "Once per round, as long as he’s not Shaken or Stunned, the hero gets a free Fighting attack against a foe immediately after he moves into Reach. (See Free Attacks on page 101). "
+  },
+  {
+    "name": "Improved First Strike",
+    "book": "Main",
+    "reqText": "Heroic, First Strike",
+    "req": ["First Strike"],
+    "rank": "Heroic",
+    "category": "Combat",
+    "desc": "As above but the hero may attack up to three foes each turn. "
+  },
+  {
+    "name": "Free Runner",
+    "book": "Main",
+    "reqText": "Novice, Agility d8+, Athletics d6+",
+    "req": ["Agility", "Athletics"],
+    "rank": "Novice",
+    "category": "Combat",
+    "desc": "Your character practices “parkour” or is just very skilled at running, jumping, swinging, scampering up walls, and over obstacles. As long as there are obstacles she can bound on, bounce off, or swing on, she moves at her full Pace on Difficult Ground when on foot. She also adds +2 to her Athletics rolls when climbing and in foot Chases (see Chases & Vehicles page 113). "
+  },
+  {
+    "name": "Frenzy",
+    "book": "Main",
+    "reqText": "Seasoned, Fighting d8+",
+    "req": ["Fighting"],
+    "rank": "Seasoned",
+    "category": "Combat",
+    "desc": "A character with Frenzy rolls a second Fighting die with any one of his Fighting attacks for the turn. The extra die may be allocated to the same or different targets as he sees fit. Resolve each separately. "
+  },
+  {
+    "name": "Improved Frenzy",
+    "book": "Main",
+    "reqText": " Veteran, Frenzy",
+    "req": ["Frenzy"],
+    "rank": "Veteran",
+    "category": "Combat",
+    "desc": "The fighter rolls an extra Fighting die with up to two Fighting attacks in the same turn. Example: Red desperately attacks a giant crab-like creature on an alien planet. She has Improved Frenzy and decides to attack three times (a Multi-Action at the usual penalty). She rolls her Fighting skill with an extra die for her first attack and second attack. She doesn’t get the extra die on her third Fighting roll. "
+  },
+  {
+    "name": "Giant Killer",
+    "book": "Main",
+    "reqText": "Veteran",
+    "req": [""],
+    "rank": "Veteran",
+    "category": "Combat",
+    "desc": "The bigger they are, the harder they are to kill. At least for most. Your hero knows how to find the weak points in the most massive of foes. He adds +1d6 damage when attacking creatures who are three or more Sizes larger than himself (see Size, page 178). A human (Size 0) gets the bonus against a creature of Size 3 or greater. "
+  },
+  {
+    "name": "Hard To Kill",
+    "book": "Main",
+    "reqText": "Novice, Spirit d8+",
+    "req": ["Spirit"],
+    "rank": "Novice",
+    "category": "Combat",
+    "desc": "This adventurer has more lives than a herd of cats. He may ignore his Wound penalties when making Vigor rolls to avoid Bleeding Out (see page 95). "
+  },
+  {
+    "name": "Harder to Kill",
+    "book": "Main",
+    "reqText": "Veteran, Hard to Kill",
+    "req": ["Hard to Kill"],
+    "rank": "Veteran",
+    "category": "Combat",
+    "desc": "Your hero is tougher to kill than Rasputin. If he is ever “killed,” roll a die. On an odd result, he’s dead as usual. On an even roll, he’s Incapacitated but somehow escapes death. He may be captured, stripped of all his belongings, or mistakenly left for dead, but he somehow survives. "
+  },
+  {
+    "name": "Improvisational Fighter",
+    "book": "Main",
+    "reqText": "Seasoned, Smarts d6+",
+    "req": ["Smarts"],
+    "rank": "Seasoned",
+    "category": "Combat",
+    "desc": "Heroes often find themselves fighting with pieces of equipment or furnishings not designed for combat. A brawler with this Edge has a knack for using such improvised weapons. He ignores the usual –2 penalty when wielding them. See page 102 for details on Improvised Weapons. "
+  },
+  {
+    "name": "Iron Jaw",
+    "book": "Main",
+    "reqText": "Novice, Vigor d8+",
+    "req": ["Vigor"],
+    "rank": "Novice",
+    "category": "Combat",
+    "desc": "The hero can shrug off even extreme blows. He adds +2 to Soak rolls and Vigor rolls to avoid Knockout Blows (see page 100)."
+  },
+  {
+    "name": "Killer Instinct",
+    "book": "Main",
+    "reqText": "Seasoned",
+    "req": [""],
+    "rank": "Seasoned",
+    "category": "Combat",
+    "desc": "This hero hates losing. He gets a free reroll in any opposed Test he initiates. "
+  },
+  {
+    "name": "Level Headed",
+    "book": "Main",
+    "reqText": "Seasoned, Smarts d8+",
+    "req": ["Smarts"],
+    "rank": "Seasoned",
+    "category": "Combat",
+    "desc": "Fighters who can keep their cool when everyone else is running for cover make deadly combatants. A hero with this Edge draws an additional Action Card in combat and chooses which to use. "
+  },
+  {
+    "name": "Improved Level Headed",
+    "book": "Main",
+    "reqText": "Seasoned, Level Headed",
+    "req": ["Level Headed"],
+    "rank": "Seasoned",
+    "category": "Combat",
+    "desc": "As above but the hero draws two additional cards and chooses which to keep."
+  },
+  {
+    "name": "Marksman",
+    "book": "Main",
+    "reqText": "Seasoned, Athletics d8+ or Shooting d8+",
+    "req": ["Athletics", "Shooting"],
+    "rank": "Seasoned",
+    "category": "Combat",
+    "desc": "The hero is a natural with ranged weapons. If she doesn’t move in a turn and fires no more than a Rate of Fire of 1 per action, she may ignore up to 2 points of Athletics (throwing) or Shooting penalties from Called Shots, Cover, Range, Scale, or Speed. This stacks with the Aim maneuver and applies to each Shooting or throwing action that turn. "
+  },
+  {
+    "name": "Martial Artist",
+    "book": "Main",
+    "reqText": "Novice, Fighting d6+",
+    "req": ["Fighting"],
+    "rank": "Novice",
+    "category": "Combat",
+    "desc": "The fighter has trained in basic martial arts. Her fists and feet are weapons (see Natural Weapons, page 104) so she’s always considered armed. She adds +1 when striking with them and causes Strength+d4 damage. If she already has a Strength damage die from the Claws racial ability (page 18) or the Brawler Edge, increase the damage a die type. Martial Artist does not add to damage from other Natural Weapons such as fangs or horns. "
+  },
+  {
+    "name": "Martial Warrior",
+    "book": "Main",
+    "reqText": "Seasoned, Martial Artist",
+    "req": ["Martial Artist"],
+    "rank": "Seasoned",
+    "category": "Combat",
+    "desc": "Increase the warrior’s Fighting bonus to +2 and her damage die an additional step. "
+  },
+  {
+    "name": "Mighty Blow",
+    "book": "Main",
+    "reqText": "Wild Card, Novice, Fighting d8+",
+    "req": ["Wild Card", "Fighting"],
+    "rank": "Novice",
+    "category": "Combat",
+    "desc": "If your Action Card is a Joker, double the damage of your first successful Fighting attack this round. "
+  },
+  {
+    "name": "Nerves of Steel",
+    "book": "Main",
+    "reqText": "Novice, Vigor d8+",
+    "req": ["Vigor"],
+    "rank": "Novice",
+    "category": "Combat",
+    "desc": "Your hero has learned to fight on through the most intense pain. He may ignore 1 point of Wound penalties. "
+  },
+  {
+    "name": "Improved Nerves of Steel",
+    "book": "Main",
+    "reqText": "Novice, Nerves of Steel",
+    "req": ["Nerves of Steel"],
+    "rank": "Novice",
+    "category": "Combat",
+    "desc": "The hero ignores two points of Wound penalties. "
+  },
+  {
+    "name": "No Mercy",
+    "book": "Main",
+    "reqText": "Seasoned",
+    "req": [""],
+    "rank": "Seasoned",
+    "category": "Combat",
+    "desc": "When this killer spends a Benny to reroll damage, he adds +2 to his final total. "
+  },
+  {
+    "name": "Rapid Fire",
+    "book": "Main",
+    "reqText": "Seasoned, Shooting d6+",
+    "req": ["Shooting"],
+    "rank": "Seasoned",
+    "category": "Combat",
+    "desc": "The shooter is practiced at taking quick and accurate shots. As long as she’s armed with a fast-firing ranged weapon of some sort (such as a revolver or semi-automatic) and has enough ammunition to do so, she may increase her weapon’s Rate of Fire by 1 for any one of her Shooting attacks that turn. "
+  },
+  {
+    "name": "Improved Rapid Fire",
+    "book": "Main",
+    "reqText": "Veteran, Rapid Fire",
+    "req": ["Rapid Fire"],
+    "rank": "Veteran",
+    "category": "Combat",
+    "desc": "The shooter may now increase her weapon’s Rate of Fire by 1 twice in the same turn (via a Multi-Action). Example: Gabe fires a machine gun and has Improved Rapid Fire. The weapon has a Rate of Fire of 4 and Gabe decides to fire it on all three of his allowed actions (see Multi-Actions on page 103). He rolls an extra Shooting die with his first and second attack, raising the weapon’s Rate of Fire to 5 each time. He doesn’t get the bonus on his third attack—the machine gun’s Rate of Fire remains a 4."
+  },
+  {
+    "name": "Rock and Roll!",
+    "book": "Main",
+    "reqText": "Seasoned, Shooting d8+",
+    "req": ["Shooting"],
+    "rank": "Seasoned",
+    "category": "Combat",
+    "desc": "Experienced shooters learn to compensate for the recoil of fully automatic weapons. If a character with this Edge doesn’t move on his turn, he ignores the Recoil penalty when firing at a Rate of Fire of 2 or higher. (See Recoil, page 105.) "
+  },
+  {
+    "name": "Steady Hands",
+    "book": "Main",
+    "reqText": "Novice, Agility d8+",
+    "req": ["Agility"],
+    "rank": "Novice",
+    "category": "Combat",
+    "desc": "Firing from the back of a horse or moving vehicle is tricky business, but your adventurer has figured it out. She ignores the Unstable Platform penalty (see page 109). This also helps when running, reducing the usual penalty from −2 to −1 (see Movement, page 92). "
+  },
+  {
+    "name": "Sweep",
+    "book": "Main",
+    "reqText": "Novice, Strength d8+,Fighting d8+",
+    "req": ["Strength", "Fighting"],
+    "rank": "Novice",
+    "category": "Combat",
+    "desc": "Sweep allows a character to make a single Fighting attack and apply it against all targets in his Reach at a −2 penalty (friends and foes alike). Resolve damage separately for each enemy that’s hit. A fighter may only perform a Sweep once per turn. It may not be combined with Frenzy. "
+  },
+  {
+    "name": "Improved Sweep",
+    "book": "Main",
+    "reqText": "Veteran, Sweep",
+    "req": ["Sweep"],
+    "rank": "Veteran",
+    "category": "Combat",
+    "desc": "As above but the whirlwind of death may ignore the −2 penalty. "
+  },
+  {
+    "name": "Trademark Weapon",
+    "book": "Main",
+    "reqText": "Novice, skill with chosen weapon of d8+",
+    "req": [""],
+    "rank": "Novice",
+    "category": "Combat",
+    "desc": "The hero knows one unique weapon (Excalibur, Old Betsy, Sting) like the back of his hand. When using it, he adds +1 to his Athletics (throwing), Fighting, or Shooting rolls, and +1 to Parry when readied (even if it’s a ranged weapon). A fighter can take this Edge multiple times, applying it to a different weapon each time. If a Trademark Weapon is lost, he can replace it but the benefits don’t kick in for a few days (however long the GM feels is dramatically appropriate). "
+  },
+  {
+    "name": "Improved Trademark Weapon",
+    "book": "Main",
+    "reqText": "Seasoned, Trademark Weapon",
+    "req": ["Trademark Weapon"],
+    "rank": "Seasoned",
+    "category": "Combat",
+    "desc": "As above but the bonuses when using the weapon increase to +2. "
+  },
+  {
+    "name": "Two-Fisted",
+    "book": "Main",
+    "reqText": "Novice, Agility d8+",
+    "req": ["Agility"],
+    "rank": "Novice",
+    "category": "Combat",
+    "desc": "If a character makes a Fighting attack with one action and another from a different hand in a later action, the second attack doesn’t inflict a Multi-Action penalty. The Off-Hand penalty still applies unless he’s Ambidextrous, however (page 104). If the character has Two-Gun Kid, the second action may also be a ranged attack. "
+  },
+  {
+    "name": "Two-Gun Kid",
+    "book": "Main",
+    "reqText": "Novice, Agility d8+",
+    "req": ["Agility"],
+    "rank": "Novice",
+    "category": "Combat",
+    "desc": "Two-Gun Kid works just like Two-Fisted, but with ranged weapons, allowing her to fire or throw a weapon in each hand as two different actions but without triggering a Multi-Action penalty. If the character has Two-Fisted, the second action may also be a melee attack. Example: Red has a sword in one hand and a pistol in the other. She has both Two-Fisted and Two-Gun Kid, so she can make a Fighting attack on one action and then a second Fighting or Shooting attack with no Multi-Action penalty on a later action that turn."
+  },
+
+  {
+    "name": "Command",
+    "book": "Main",
+    "reqText": "Novice, Smarts d6+",
+    "req": ["Smarts"],
+    "rank": "Novice",
+    "category": "Leadership",
+    "desc": "Command is the basic ability to give clear instructions and support to allies in the thick of battle. Extras in Command Range add +1 to their Spirit rolls when attempting to recover from being Shaken."
+  },
+  {
+    "name": "Command Presence",
+    "book": "Main",
+    "reqText": "Seasoned, Command",
+    "req": ["Command"],
+    "rank": "Seasoned",
+    "category": "Leadership",
+    "desc": "A booming voice, effective commands, natural charisma, or simple training results in a much more effective combat element. A hero with this Edge has a Command Range of 10″ (20 yards). "
+  },
+  {
+    "name": "Fervor",
+    "book": "Main",
+    "reqText": "Veteran, Spirit d8+, Command",
+    "req": ["Spirit", "Command"],
+    "rank": "Veteran",
+    "category": "Leadership",
+    "desc": "A simple phrase uttered by a great leader can sometimes have momentous results. A commander with this ability can inspire his troops to bloody fervor by yelling a motto, slogan, or other inspirational words. Extras in range add +1 to their Fighting damage rolls. "
+  },
+  {
+    "name": "Hold the Line!",
+    "book": "Main",
+    "reqText": "Seasoned, Smarts d8+,Command",
+    "req": ["Smarts", "Command"],
+    "rank": "Seasoned",
+    "category": "Leadership",
+    "desc": "Hold the Line strengthens the will of any Extras under the hero’s command, adding +1 to their Toughness. "
+  },
+  {
+    "name": "Inspire",
+    "book": "Main",
+    "reqText": "Seasoned, Command",
+    "req": ["Command"],
+    "rank": "Seasoned",
+    "category": "Leadership",
+    "desc": "Exceptional leaders inspire those around them to great feats of valor and determination. Once per turn, the hero may roll his Battle skill to Support one type of Trait roll, and apply it to all allied Extras in Command Range. A leader could Support all Shooting attacks in range, for example, or all Spirit rolls to recover from being Shaken. Inspire is an action and requires some sort of communication with those it affects. "
+  },
+  {
+    "name": "Natural Leader",
+    "book": "Main",
+    "reqText": "Seasoned, Spirit d8+, Command",
+    "req": ["Spirit", "Command"],
+    "rank": "Seasoned",
+    "category": "Leadership",
+    "desc": "This leader has proven herself time and time again, gaining the respect of all those who fight by her side. Any Leadership Edge that says it applies only to Extras now applies to Wild Cards as well. "
+  },
+  {
+    "name": "Tactician",
+    "book": "Main",
+    "reqText": "Seasoned, Smarts d8+, Command, Battle d6+",
+    "req": ["Smarts", "Command", "Battle"],
+    "rank": "Seasoned",
+    "category": "Leadership",
+    "desc": "The commander has a natural grasp of small unit tactics and can take advantage of rapidly changing situations. A Tactician is dealt an extra Action Card each round of combat or a chase—kept separate from his own cards. At the start of the round, he may discard it or give it to any one allied Extra in Command Range. The player or GM controlling the receiving character can decide whether to accept and replace her current Action Card, or discard it. "
+  },
+  {
+    "name": "Master Tactician",
+    "book": "Main",
+    "reqText": "Veteran, Tactician",
+    "req": ["Tactician"],
+    "rank": "Veteran",
+    "category": "Leadership",
+    "desc": "The Tactician now gets a total of two extra Action Cards to distribute each round."
+  },
+  {
+    "name": "Artificer",
+    "book": "Main",
+    "reqText": "Seasoned, Arcane Background (Any)",
+    "req": ["Arcane Background (Any)"],
+    "rank": "Seasoned",
+    "category": "Power",
+    "desc": "Background (Any, Weird Scientists have it automatically) Those who tangle with supernatural forces sometimes find ways to imbue powers into items. They may turn an ordinary blade into a magic sword, brew a potion that can heal an ally’s Wounds, or even bless a holy relic with divine grace. Artificers can create wondrous items and devices using the Arcane Devices system found on page 152."
+  },
+  {
+    "name": "Channeling",
+    "book": "Main",
+    "reqText": "Seasoned, Arcane Background (Any)",
+    "req": ["Arcane Background (Any)"],
+    "rank": "Seasoned",
+    "category": "Power",
+    "desc": "When the character gets a raise on her arcane skill roll (or roll to activate or use an arcane device), she reduces its Power Point cost by 1. This can take it to 0. "
+  },
+  {
+    "name": "Concentration",
+    "book": "Main",
+    "reqText": "Seasoned, Arcane Background (Any)",
+    "req": ["Arcane Background (Any)"],
+    "rank": "Seasoned",
+    "category": "Power",
+    "desc": "The caster has learned to concentrate through mild injury or setbacks. He doesn’t have to make a Smarts roll to keep his powers active when Shaken. He checks only when he’s Stunned or Wounded (see Disruption, page 150). "
+  },
+  {
+    "name": "Extra Effort",
+    "book": "Main",
+    "reqText": "Seasoned, Arcane Background (Gifted), Focus d6+",
+    "req": ["Arcane Background (Gifted)", "Focus"],
+    "rank": "Seasoned",
+    "category": "Power",
+    "desc": "Some Gifted can dig deep into their souls to significantly boost their powers. Extra Effort increases a Focus total after it’s rolled by +1 for 1 Power Point, or +2 for 3 Power Points. It may not be used to improve a Critical Failure. "
+  },
+  {
+    "name": "Gadgeteer",
+    "book": "Main",
+    "reqText": "Seasoned, Arcane Background (Weird Science), Weird Science d6+",
+    "req": ["Arcane Background (Weird Science)", "Weird Science"],
+    "rank": "Seasoned",
+    "category": "Power",
+    "desc": "Some mechanical gurus can build incredible devices out of most anything. A Gadgeteer can spend up to three Power Points to “jury rig” a device from most any reasonable collection of spare parts. This allows her to use any power normally available to Weird Scientists of her Rank or lower in her particular setting, with a Power Point cost of 3 or lower. The total cost of the power (plus any modifiers) cannot exceed the points spent to create it, but she may create multiple devices as long as she has the points to do so.</br> This takes one entire turn, during which she can do nothing else but make a Weird Science roll at −2 (she cannot take Multi- Actions that turn).</br> The inventor uses Power Points directly from her pool for the device, but once its initial Duration is finished (it cannot be maintained) it falls apart into its component pieces. Example: Gabe is an inventor in the Weird West. He wants to use boost Trait to help Red fight a giant rattlesnake, but only has the burst and blast powers. Fortunately, he’s a Gadgeteer, so Gabe can put boost Trait into an “electrical bio-inducer.” The device can take up to three points worth of powers, so Gabe adds the Hurry modifier and gives Red +2 Pace as well. "
+  },
+  {
+    "name": "Holy/Unholy Warrior",
+    "book": "Main",
+    "reqText": "Seasoned, Arcane Background (Miracles), Faith d6+",
+    "req": ["Arcane Background (Miracles)", "Faith"],
+    "rank": "Seasoned",
+    "category": "Power",
+    "desc": "Believers face grave dangers in service to their divine patrons. To survive such hardships, the forces</br> of good (or evil) grant miracles and the ability to turn their favor into supernatural protection. The chosen may add +1 to the total of a final Soak roll for each Power Point spent, to a maximum of +4. "
+  },
+  {
+    "name": "Mentalist",
+    "book": "Main",
+    "reqText": "Seasoned, Arcane Background (Psionics), Psionics d6+",
+    "req": ["Arcane Background (Psionics)", "Psionics"],
+    "rank": "Seasoned",
+    "category": "Power",
+    "desc": "Constant contact with multiple minds gives these psionic agents an edge when it comes to forcing or resisting mental assaults. Mentalists add +2 to opposed Psionics rolls, whether they are using their powers against a foe or defending against a rival."
+  },
+  {
+    "name": "New Powers",
+    "book": "Main",
+    "reqText": "Novice, Arcane Background (Any)",
+    "req": ["Arcane Background (Any)"],
+    "rank": "Novice",
+    "category": "Power",
+    "desc": "An arcane character may learn two new powers by choosing this Edge (which may be taken multiple times). He may choose from any powers of his Rank or lower normally available to his particular Arcane Background. "
+  },
+  {
+    "name": "Power Points",
+    "book": "Main",
+    "reqText": "Novice, Arcane Background (Any)",
+    "req": ["Arcane Background (Any)"],
+    "rank": "Novice",
+    "category": "Power",
+    "desc": "Background (Any) Wizards, weird scientists, and other arcane types always want more power. This Edge grants them an additional 5 Power Points. Power Points may be selected more than once, but only once per Rank. It may be taken as often as desired at Legendary Rank, but each grants only 2 additional points. "
+  },
+  {
+    "name": "Power Surge",
+    "book": "Main",
+    "reqText": "Wild Card, Novice, Arcane Background (Any), arcane skill d8+",
+    "req": ["Wild Card", "Arcane Background (Any)", "arcane"],
+    "rank": "Novice",
+    "category": "Power",
+    "desc": "The character recovers 10 Power Points when his Action Card is a Joker. This may not exceed his usual limit. "
+  },
+  {
+    "name": "Rapid Recharge",
+    "book": "Main",
+    "reqText": "Seasoned, Spirit d6+, Arcane Background (Any)",
+    "req": ["Spirit", "Arcane Background (Any)"],
+    "rank": "Seasoned",
+    "category": "Power",
+    "desc": "Power Points normally recharge at a rate of 5 points every hour spent resting (see Recharging, page 150). This Edge increases that rate to 10 every hour. "
+  },
+  {
+    "name": "Improved Rapid Recharge",
+    "book": "Main",
+    "reqText": "Veteran, Rapid Recharge",
+    "req": ["Rapid Recharge"],
+    "rank": "Veteran",
+    "category": "Power",
+    "desc": "The character now regains 20 Power Points per hour spent resting. "
+  },
+  {
+    "name": "Soul Drain",
+    "book": "Main",
+    "reqText": "Seasoned, Arcane Background (Any), arcane skill d10+",
+    "req": ["Arcane Background (Any)", "arcane"],
+    "rank": "Seasoned",
+    "category": "Power",
+    "desc": "Desperate times call for desperate measures. Soul Drain allows an arcane character to channel her physical energy into power, taking a level of Fatigue to recover up to five Power Points. She can take an additional level of Fatigue (to Exhaustion) to recover up to five more Power Points. She cannot render herself Incapacitated in this way.</br> Fatigue incurred by Soul Drain comes from deep within and may only be recovered naturally. The relief power and similar abilities have no effect. "
+  },
+  {
+    "name": "Wizard",
+    "book": "Main",
+    "reqText": "Seasoned, Arcane Background (Magic), Spellcasting d6+",
+    "req": ["Arcane Background (Magic)", "Spellcasting"],
+    "rank": "Seasoned",
+    "category": "Power",
+    "desc": "Magic is varied and wonderful, and wizards are exposed to countless tomes, scrolls, and incantations as they master their craft. Sometimes they use this knowledge to recall variations of their various enchantments. A Wizard can spend 1 extra Power Point when casting a power to change its Trapping. A fireball (blast) might manifest as a lightning bolt, for example. This can often have important consequences if a foe has a particular resistance or weakness to the spell’s usual Trapping."
+  },
+  {
+    "name": "Ace",
+    "book": "Main",
+    "reqText": "Novice, Agility d8+",
+    "req": ["Agility"],
+    "rank": "Novice",
+    "category": "Professional",
+    "desc": "Aces are pilots and drivers who have a special affinity with their car, boat, plane, or other vehicle. They ignore two points of penalties to any Boating, Driving, or Piloting roll, and may spend Bennies to Soak damage for any vehicle they control or command, using the appropriate Boating, Driving, or Piloting skill instead of Vigor. Each success and raise negates a Wound."
+  },
+  {
+    "name": "Acrobat",
+    "book": "Main",
+    "reqText": "Novice, Agility d8+, Athletics d8+",
+    "req": ["Agility", "Athletics"],
+    "rank": "Novice",
+    "category": "Professional",
+    "desc": "The Acrobat gets one free reroll on Athletics totals that involve balance, tumbling, or grappling. It doesn’t affect rolls to interrupt actions, climb, swim, or throw. "
+  },
+  {
+    "name": "Combat Acrobat",
+    "book": "Main",
+    "reqText": "Seasoned, Acrobat",
+    "req": ["Acrobat"],
+    "rank": "Seasoned",
+    "category": "Professional",
+    "desc": "The tumbler leaps quickly about so that attacks against her are made at −1 as long as she’s aware of the attack, can reasonably move about, and isn’t suffering any Encumbrance or Minimum Strength penalties. "
+  },
+  {
+    "name": "Assassin",
+    "book": "Main",
+    "reqText": "Novice, Agility d8+, Fighting d6+, Stealth d8+",
+    "req": ["Agility", "Fighting", "Stealth"],
+    "rank": "Novice",
+    "category": "Professional",
+    "desc": "Assassins are trained killers who know how to kill even the toughest foes. They add +2 to damage rolls when their foe is Vulnerable or they have The Drop. "
+  },
+  {
+    "name": "Investigator",
+    "book": "Main",
+    "reqText": "Novice, Smarts d8+, Research d8+",
+    "req": ["Smarts", "Research"],
+    "rank": "Novice",
+    "category": "Professional",
+    "desc": "Investigators spend a great deal of time researching ancient legends, working the streets, or deducing devilish mysteries. Some of these heroes are actual private investigators while others are sleuthing mages in a fantasy world or inquisitive college professors stumbling upon Things Man Was Not Meant to Know. Investigators add +2 to Research rolls and Notice rolls made to search through desks for important papers, sift through stacks of junk mail for something of note, or spy obscured items from piles of junk or debris. "
+  },
+  {
+    "name": "Jack-Of-All-Trades",
+    "book": "Main",
+    "reqText": "Novice, Smarts d10+",
+    "req": ["Smarts"],
+    "rank": "Novice",
+    "category": "Professional",
+    "desc": "Through advanced schooling, book-learning, computer-enhanced skill programs, or just amazing intuitive perception, your hero has a talent for picking up skills on the fly. There’s little he can’t figure out given a little time and a dash of luck. The character makes a Smarts roll after an hour of study or immersion on a particular skill. With success, she gains a d4 in the skill, or d6 with a raise. She may spend another hour studying to try again if she fails or wants to try for a raise. This lasts until the character studies a different subject. The Edge may not be used to increase a skill she actually has points in. "
+  },
+  {
+    "name": "McGyver",
+    "book": "Main",
+    "reqText": "Novice, Smarts d6+, Notice d8+, Repair d6+",
+    "req": ["Smarts", "Notice", "Repair"],
+    "rank": "Novice",
+    "category": "Professional",
+    "desc": "A McGyver can improvise a device from common resources when the need arises. Given a few simple items, he can make a Repair roll to craft improvised weapons, explosives, or tools, that last until used or the end of the encounter (GM’s call). This takes one entire turn, and he can’t move or take any other actions while constructing the device. Failure means the device isn’t ready. A Critical Failure means he doesn’t have the right materials and can’t create the device this encounter.</br> Success creates a minor explosive (2d4 explosive in a Small Blast Template), a one shot projectile weapon like a “zip gun” (Range 5/10/20, Damage 2d6), rickety raft, electrical source, etc.</br> A raise creates a larger explosive (2d6 in a Medium Blast Template or 2d4 in a Large), a better ranged weapon (five shots, 2d8 damage, Range 10/20/40), a more stable raft, a more powerful battery, etc.</br> The quality or power of the creation is completely up to the Game Master, but creativity should be rewarded, particularly in the most dire and dramatic situations. "
+  },
+  {
+    "name": "Mr. Fix It",
+    "book": "Main",
+    "reqText": " Novice, Repair d8+",
+    "req": ["Repair"],
+    "rank": "Novice",
+    "category": "Professional",
+    "desc": "The mechanic adds +2 to Repair rolls. With a raise, he halves the time normally required to fix something. This means if a particular Repair job says a raise repairs it in half the time, a Mr. Fix It can finish the job in onequarter the time with a raise. "
+  },
+  {
+    "name": "Scholar",
+    "book": "Main",
+    "reqText": "Novice, Research d8+",
+    "req": ["Research"],
+    "rank": "Novice",
+    "category": "Professional",
+    "desc": "Learned professors, devoted students, and amateur enthusiasts spend great amounts of time and energy studying particular subjects. They become experts in these fields, and rarely fail to answer questions in their particular area of expertise. Pick any one of the following skills: Academics, Battle, Occult, Science, or a Smarts-based “knowledge”-type skill allowed in your setting, and add +2 to the total whenever they’re used. This Edge may be taken more than once if applied to different skills. "
+  },
+  {
+    "name": "Soldier",
+    "book": "Main",
+    "reqText": "Novice, Strength d6+, Vigor d6+",
+    "req": ["Strength", "Vigor"],
+    "rank": "Novice",
+    "category": "Professional",
+    "desc": "Professional soldiers get used to carrying heavy loads, and enduring harsh conditions. After a few days getting used to their gear (GM’s call), they treat their Strength as one die type higher when determining Encumbrance (page 67) and Minimum Strength to use armor, weapons, and equipment without a penalty (page 66). (This stacks with the Brawny Edge.)</br> They also get a free reroll on Vigor rolls made to survive environmental hazards (see Hazards, page 125). "
+  },
+  {
+    "name": "Thief",
+    "book": "Main",
+    "reqText": "Novice, Agility d8+, Stealth d6+, Thievery d6+",
+    "req": ["Agility", "Stealth", "Thievery"],
+    "rank": "Novice",
+    "category": "Professional",
+    "desc": "Thieves specialize in deceit, treachery, and acrobatics. They can be invaluable where traps must be detected, walls must be climbed, and locks must be picked. Thieves know how to use protrusions on walls and window ledges to climb the tallest of buildings, scampering through streets and back alleys like cats. They add +1 to Athletics rolls made to climb in urban areas. Thieves also know how to use the dark areas between the streetlights of cities to conceal their movements, and add +1 to Stealth rolls when in an urban environment. Finally, these rogues are—not surprisingly— adept at Thievery itself, adding +1 to those rolls in all circumstances."
+  },
+  {
+    "name": "Woodsman",
+    "book": "Main",
+    "reqText": "Novice, Spirit d6+, Survival d8+",
+    "req": ["Spirit", "Survival"],
+    "rank": "Novice",
+    "category": "Professional",
+    "desc": "Woodsmen are rangers, scouts, and hunters who are more at home in the wilderness than in urban areas. They are skilled trackers and scouts, and know how to live off the land for months at a time. Woodsmen add +2 to Survival rolls, and Stealth rolls made in the wild (not towns, ruins, or underground). Social Edges Getting people to do what you want is a critical skill in most any setting. "
+  },
+  {
+    "name": "Bolster",
+    "book": "Main",
+    "reqText": "Novice, Spirit d8+",
+    "req": ["Spirit"],
+    "rank": "Novice",
+    "category": "Social",
+    "desc": "Belittling or humiliating an enemy can also boost your ally’s spirits. When this character successfully Tests a foe, he may also remove the Distracted or Vulnerable state (page 100) from one of his allies. "
+  },
+  {
+    "name": "Common Bond",
+    "book": "Main",
+    "reqText": "Wild Card, Novice, Spirit d8+",
+    "req": ["Wild Card", "Spirit"],
+    "rank": "Novice",
+    "category": "Social",
+    "desc": "Selfless heroes and determined leaders know their greatest strength often comes from their companions, and are willing to give some of their own fortune, fate, or luck to support them. A character with this Edge may freely give her Bennies to any other character she can communicate with. The player should explain what form this takes, from a quick shout of encouragement to a welcome pat on the back. "
+  },
+  {
+    "name": "Connections",
+    "book": "Main",
+    "reqText": "Novice",
+    "req": [""],
+    "rank": "Novice",
+    "category": "Social",
+    "desc": "Your heroine is connected to people or organizations who can help her when the chips are down. It might be the mob, the Feds, a union, or even other adventurers. Connections may be taken more than once, selecting a new faction or contact each time. Once per session, and assuming she can get in touch with them, the heroine can call on her friends for a favor. The favor depends on the nature of the contact (GM’s call), but might include a loan, gear, a few allied fighters, transportation, information, or even a professional with critical skills the party doesn’t have, like a hacker or scholar. "
+  },
+  {
+    "name": "Humiliate",
+    "book": "Main",
+    "reqText": "Novice, Taunt d8+",
+    "req": ["Taunt"],
+    "rank": "Novice",
+    "category": "Social",
+    "desc": "Those with a cruel wit can destroy a rival’s ego in a single remark or well-timed gesture. Your hero gets a free reroll on Taunt Tests. "
+  },
+  {
+    "name": "Menacing",
+    "book": "Main",
+    "reqText": "Novice, any one of Bloodthirsty, Mean, Ruthless, or Ugly",
+    "req": ["Bloodthirsty", "Mean", "Ruthless", "Ugly"],
+    "rank": "Novice",
+    "category": "Social",
+    "desc": "Being a brutish lout isn’t always a drawback if you know how to use it. Menacing allows a character to put her bad looks or worse attitude to good use. The goon adds +2 to her Intimidation rolls. "
+  },
+  {
+    "name": "Provoke",
+    "book": "Main",
+    "reqText": "Novice, Taunt d6+",
+    "req": ["Taunt"],
+    "rank": "Novice",
+    "category": "Social",
+    "desc": "Clever characters can manipulate their foes, drawing enemy focus on themselves to protect their allies. Once per turn, when your hero uses Taunt for a Test and gets a raise (see Test, page 108), she may Provoke the foe. In addition to all the usual effects of the success and raise, the enemy suffers a −2 penalty to affect any other target besides the one who provoked her. This stacks with Distracted but not further instances of Provoke.</br> Provoke lasts until a Joker is drawn, someone else Provokes the target, or the encounter ends. Provoke can affect multiple targets, and may be combined with Rabble Rouser (see below). "
+  },
+  {
+    "name": "Rabble-Rouser",
+    "book": "Main",
+    "reqText": "Seasoned, Spirit d8+",
+    "req": ["Spirit"],
+    "rank": "Seasoned",
+    "category": "Social",
+    "desc": "This instigator knows how to rile up several enemies at once. Once per turn, a character with this Edge can make a social Test with Intimidation or Taunt against all enemies in a Medium Blast Template. The targets must be able to see and hear the hero clearly. Each defender resists and is affected by the Test separately."
+  },
+  {
+    "name": "Reliable",
+    "book": "Main",
+    "reqText": "Novice, Spirit d8+",
+    "req": ["Spirit"],
+    "rank": "Novice",
+    "category": "Social",
+    "desc": "People know they can depend on your hero when they need assistance. He gets a free reroll on any Support roll. "
+  },
+  {
+    "name": "Retort",
+    "book": "Main",
+    "reqText": "Novice, Taunt d6+",
+    "req": ["Taunt"],
+    "rank": "Novice",
+    "category": "Social",
+    "desc": "This verbal duelist can turn the slings and arrows of social combat right back at the unwitting fools who hurled them. If a character with Retort gets a raise when resisting an Intimidation or Taunt Test, the foe is Distracted. "
+  },
+  {
+    "name": "Streetwise",
+    "book": "Main",
+    "reqText": "Novice, Smarts d6+",
+    "req": ["Smarts"],
+    "rank": "Novice",
+    "category": "Social",
+    "desc": "Streetwise characters know how to find the local black market, fence stolen goods, avoid the local law (or criminal element!), lay low when the heat’s on, obtain illegal weapons, find out which “boss” is hiring muscle, or similar shady activities. Streetwise characters add +2 to Intimidation or Persuasion rolls made to Network (see page 133) with shady or criminal elements. They also add +2 to Common Knowledge rolls pertaining to the types of disreputable activities listed above. "
+  },
+  {
+    "name": "Strong Willed",
+    "book": "Main",
+    "reqText": "Novice, Spirit d8+",
+    "req": ["Spirit"],
+    "rank": "Novice",
+    "category": "Social",
+    "desc": "Self-confidence is strong armor against those who would belittle this individual. He adds +2 to his total when resisting any opposed Smarts or Spirit-based rolls, including Tests and arcane skills. "
+  },
+  {
+    "name": "Iron Will",
+    "book": "Main",
+    "reqText": "Novice,",
+    "req": [""],
+    "rank": "Novice",
+    "category": "Social",
+    "desc": "Strong Willed Few things phase this character’s powerful psyche. The bonus increases to +4. "
+  },
+  {
+    "name": "Work the Room",
+    "book": "Main",
+    "reqText": "Novice, Spirit d8+",
+    "req": ["Spirit"],
+    "rank": "Novice",
+    "category": "Social",
+    "desc": "Your hero’s words don’t just inspire those they’re directed at—they often inspire others as well. Once per turn, you can use Work the Room to roll an additional skill die when Supporting with Persuasion or Performance. The additional die Supports any other ally who can see or hear your hero, and applies to their next action, whatever it may be. "
+  },
+  {
+    "name": "Work the Crowd",
+    "book": "Main",
+    "reqText": "Seasoned, Work the Room",
+    "req": ["Work the Room"],
+    "rank": "Seasoned",
+    "category": "Social",
+    "desc": "As Work the Room but the hero now can Support another on up to two of her Support actions."
+  },
+  {
+    "name": "Beast Bond",
+    "book": "Main",
+    "reqText": "Novice",
+    "req": [""],
+    "rank": "Novice",
+    "category": "Weird",
+    "desc": "Some individuals have an extraordinary bond with their animal companions. These characters may spend their own Bennies for any animals under their control, including mounts, pets, familiars, and so on. "
+  },
+  {
+    "name": "Beast Master",
+    "book": "Main",
+    "reqText": "Novice, Spirit d8+",
+    "req": ["Spirit"],
+    "rank": "Novice",
+    "category": "Weird",
+    "desc": "Animals take to your hero quickly and easily. They won’t attack him unless he attacks them first or they’re enraged for some reason.</br> The Beast Master’s “animal magnetism” is so great he’s attracted a loyal animal of some sort as well. This is typically an animal of Size 0 or smaller, subject to the GM’s approval.</br> The beast is an Extra and doesn’t Advance in Rank or abilities. If a pet is dismissed or killed, the hero gains a replacement in 1d4 days. More Powerful Companions: Beast Master may be taken more than once. Choose one of the effects below each time it’s chosen:</br> • Gain an additional pet.</br> • Increase one of the pet’s Traits one die type (only one Trait per pet).</br> • Increase the maximum Size pet you may have by +1, to a maximum of 3.</br> • Make one pet a Wild Card. (The hero must be of Heroic Rank). "
+  },
+  {
+    "name": "Champion",
+    "book": "Main",
+    "reqText": "Novice, Spirit d8+, Fighting d6+",
+    "req": ["Spirit", "Fighting"],
+    "rank": "Novice",
+    "category": "Weird",
+    "desc": "Champions are holy (or unholy) men and women chosen to fight for a particular deity or religion. Most are pious souls ready and willing to lay down their lives for a greater cause, but some may have been born into the role and follow their path with some reluctance. Champions fight the forces of darkness (or good), adding +2 damage when attacking supernaturally evil (or good if they’re evil) creatures. The bonus applies to area effect damage, ranged attacks, powers, etc. The GM must decide which foes this bonus applies to, but generally it’s any evil (or good!) creature born of magic or with any supernatural abilities. "
+  },
+  {
+    "name": "Chi",
+    "book": "Main",
+    "reqText": "Veteran, Martial Warrior",
+    "req": ["Martial Warrior"],
+    "rank": "Veteran",
+    "category": "Weird",
+    "desc": "Your hero’s martial arts training goes beyond the norm and into the realm of the mystical. At the start of each combat encounter, she gains a “Chi Point” that can be spent to: • Reroll one of her failed attacks (even a Critical Failure). • Make an enemy discard an attack against her, then reroll it from scratch. • Add +d6 damage to a successful Fighting attack made with her hands, feet, claws, or other Natural Weapons (this may Ace). Unspent Chi is lost at the end of the combat encounter. "
+  },
+  {
+    "name": "Danger Sense",
+    "book": "Main",
+    "reqText": "Novice",
+    "req": [""],
+    "rank": "Novice",
+    "category": "Weird",
+    "desc": "Your hero can sense when something bad is about to happen. When rolling for Surprise (page 108), he adds +2 to his Notice roll to act in the first round. With a raise, he starts the encounter on Hold. In other situations not covered by the Surprise rules (a sniper shot, pit trap, poisoned drink, etc.), Danger Sense gives him a Notice roll at −2 (or +2 if a Notice roll is usually allowed) to detect the hazard and take appropriate action. If this was an attack and the hero makes his Notice roll, the foe doesn’t get The Drop against him. "
+  },
+  {
+    "name": "Healer",
+    "book": "Main",
+    "reqText": "Novice, Spirit d8+",
+    "req": ["Spirit"],
+    "rank": "Novice",
+    "category": "Weird",
+    "desc": "A hero with this Edge adds +2 to all Healing rolls, whether natural or magical in nature. "
+  },
+  {
+    "name": "Liquid Courage",
+    "book": "Main",
+    "reqText": "Novice, Vigor d8+",
+    "req": ["Vigor"],
+    "rank": "Novice",
+    "category": "Weird",
+    "desc": "This gregarious individual processes alcohol far differently than most. The round after consuming a stiff drink (about eight ounces of hard liquor or equivalent), her Vigor increases one die type (increasing Toughness as well). The drinker can also ignore one level of Wound penalties (which stacks with other abilities that do the same). Smarts, Agility, and all linked skills suffer a −1 penalty for the duration, however. The effect lasts for one hour after it begins, at which point the boozer suffers a level of Fatigue for the next four hours. "
+  },
+  {
+    "name": "Scavenger",
+    "book": "Main",
+    "reqText": "Novice, Luck",
+    "req": ["Luck"],
+    "rank": "Novice",
+    "category": "Weird",
+    "desc": "Once per encounter the hero may find, “suddenly remember,” or dig up some muchneeded piece of equipment, a handful of ammunition, or some other useful device. The Game Master decides what constitutes an encounter, and has the final word on what can and can’t be found."
+  },
+  {
+    "name": "Followers",
+    "book": "Main",
+    "reqText": "Wild Card, Legendary",
+    "req": ["Wild Card"],
+    "rank": "Legendary",
+    "category": "Legendary",
+    "desc": "Each time this Edge is chosen, five followers come to fight by the hero’s side. If any are lost, others eventually take their place (how long is up to the GM and the circumstances). Followers must be cared for and generally want a share of whatever loot, treasure, or other rewards the hero acquires. Otherwise, they are completely dedicated to their task. They won’t throw their lives away but are willing to risk them repeatedly in his service. Use the Soldier profile found on page 188 for the followers. A hero may outfit her allies as she sees fit. Followers Advance just like player characters (see page 54). Use the Allies rules on page 111 to give them distinctive personalities if desired. "
+  },
+  {
+    "name": "Professional",
+    "book": "Main",
+    "reqText": "Legendary, maximum die",
+    "req": [""],
+    "rank": "Legendary",
+    "category": "Legendary",
+    "desc": "type possible in affected Trait The character is an expert at a particular skill or attribute (his choice). This increases the Trait and its limit one step (a d12 + 1 becomes a d12 + 2, for example). This Edge may be selected once per Trait. "
+  },
+  {
+    "name": "Expert",
+    "book": "Main",
+    "reqText": "Legendary, Professional in affected Trait",
+    "req": [""],
+    "rank": "Legendary",
+    "category": "Legendary",
+    "desc": "As the Professional Edge, increasing the Trait and its limit one additional step. "
+  },
+  {
+    "name": "Master",
+    "book": "Main",
+    "reqText": "Wild Card, Legendary, Expert in affected Trait",
+    "req": [""],
+    "rank": "Legendary",
+    "category": "Legendary",
+    "desc": "The character’s Wild Die increases to a d10 when rolling the selected Expert Trait. "
+  },
+  {
+    "name": "Sidekick",
+    "book": "Main",
+    "reqText": "Wild Card, Legendary",
+    "req": ["Wild Card"],
+    "rank": "Legendary",
+    "category": "Legendary",
+    "desc": "A character who triumphs over evil time and time again becomes an inspiration to others. Eventually, one of these young crusaders may attempt to join the hero in his epic quests. The hero gains a Novice Rank sidekick. The sidekick is a Wild Card, starts each session with two Bennies, may Advance, and has abilities that complement his mentor. The player character controls his sidekick just like any other ally, though he may occasionally cause trouble by getting captured, running into danger when he’s not supposed to, and so on. The player should be prepared for his Edge to occasionally become a Hindrance! If the sidekick dies, he isn’t replaced unless the hero chooses this Edge again. Fortunately, heroes may always spend Bennies for their sidekicks as if she had the Common Bond Edge. Sidekicks must actually take that Edge to do the same for their mentors. "
+  },
+  {
+    "name": "Tough As Nails",
+    "book": "Main",
+    "reqText": "Legendary, Vigor d8+",
+    "req": ["Vigor"],
+    "rank": "Legendary",
+    "category": "Legendary",
+    "desc": "Your character keeps going when others fall. She can take four Wounds before she’s Incapacitated (her maximum Wound penalty is still −3). "
+  },
+  {
+    "name": "Tougher Than Nails",
+    "book": "Main",
+    "reqText": "Legendary, Tough as Nails, Vigor d12+",
+    "req": ["Tough as Nails", "Vigor"],
+    "rank": "Legendary",
+    "category": "Legendary",
+    "desc": "The hero can take up to five Wounds before she’s Incapacitated! Her maximum Wound penalty is still −3. "
+  },
+  {
+    "name": "Weapon Master",
+    "book": "Main",
+    "reqText": "Legendary, Fighting d12+",
+    "req": ["Fighting"],
+    "rank": "Legendary",
+    "category": "Legendary",
+    "desc": "The warrior increases his Parry by +1 and the bonus damage die for Fighting rolls is a d8 instead of a d6 (see Bonus Damage, page 94). He must be armed to gain these benefits, but this includes the Martial Artist Edge, claws, or other abilities that count as weapons. "
+  },
+  {
+    "name": "Master of Arms",
+    "book": "Main",
+    "reqText": "Legendary, Weapon Master",
+    "req": ["Weapon Master"],
+    "rank": "Legendary",
+    "category": "Legendary",
+    "desc": "Increase the hero’s Parry an additional +1 and his Fighting bonus damage die is now a d10."
+  },
+  {
+    "name": "Adapted",
+    "book": "deadlands lost colony",
+    "reqText": "Anouk, Novice, Smarts d8+",
+    "req": ["Anouk", "Smarts"],
+    "rank": "Novice",
+    "category": "Background",
+    "desc": "Not all anouks shun technology. This Edge removes the Low Tech racial Hindrance from an anouk hero so she can operate most human technology normally. "
+  },
+  {
+    "name": "Arcane Background (Shaman)",
+    "book": "deadlands lost colony",
+    "reqText": "Novice, Tannis Touch, Faith d4+",
+    "req": ["Tannis Touch", "Faith"],
+    "rank": "Novice",
+    "category": "Background",
+    "desc": "Certain anouks (and very rarely humans) are so closely attuned to Banshee’s life energy they can draw on its power to help their allies and harm their enemies. The anouk word for a shaman is anakra, but the colonists collectively call them shamans. The most famous shaman on Banshee is Kreeh, hailed as a hero by most anouks for her part in the Red River Campaign against the UN EXFOR forces. Find out more on page 69."
+  },
+  {
+    "name": "Arcane Background (Breaker)",
+    "book": "deadlands lost colony",
+    "reqText": "Novice, Smarts d6+, Science d6+, Transmute d4+",
+    "req": ["Anouk", "Smarts", "Science", "Transmute"],
+    "rank": "Novice",
+    "category": "Background",
+    "desc": "Breakers were once “transmuters,” technically inclined individuals who could use special Hellstromme Industries cybertech and nanobots to break down old matter and form it into new and useful devices. This was a great blessing for the lost colonists, trapped as they were with little ability to manufacture new parts, weapons, tools, and other goods.</br> Unfortunately, the UN EXFOR’s actions during Operation Typhoon corrupted the system and infected it with the “EXFOR virus.” Those once known as “mutes” could now only destroy.</br> Now collectively called “breakers,” most search for a way to remove the virus or an uncorrupted batch of nanobots to refill their systems. In the meantime, they use their swarms of flying nanobots to protect themselves, their companions, and the colonists. A few embrace the change however and use their ability to disrupt the technology of the UN, Hellstromme Industries, or others they see as the true threats in Faraway. Regardless, your breaker was once a builder—a transmuter who created goods for the lost colonists of Faraway. How she reacts to being robbed of her quintessential ability is up to you. See page 97 for details."
+  },
+  {
+    "name": "Arcane Background (Syker)",
+    "book": "deadlands lost colony",
+    "reqText": "Wild Card, Novice, Psionics d6+, Smarts d8+",
+    "req": ["Wild Card", "Psionics", "Smarts"],
+    "rank": "Novice",
+    "category": "Background",
+    "desc": "Humans who showed psychic potential on Earth were invited (or drafted) into their nation’s special forces. Some were powerful battlefield weapons in their own right, others were spies, saboteurs, and infiltrators trained to gain intelligence on their foes or disrupt their actions.</br> After the skinnies awakened, the United Nations formed a cadre of these “sykers” into the “Psychic Legion” and summoned them to Faraway. The sykers were broken down into squads of about 20 individuals, usually with a particular focus or specialty. Some were tasked with infiltrating the Reapers or rooting out human saboteurs, but most all wound up in battle against the terrible skinnies during the Red River campaign. Most sykers were ordered to return home when the Last War broke out on Earth, but a few remain—either deserters, haunted loners, or colonial loyalists with some reason to stay on Banshee. You can learn more about Sykers and their powers on page 104."
+  },
+  {
+    "name": "Banshee Born",
+    "book": "deadlands lost colony",
+    "reqText": "Novice, Human",
+    "req": ["Human"],
+    "rank": "Novice",
+    "category": "Background",
+    "desc": "Your character is a human born and raised on Banshee. The living planet connected with her on a spiritual level, allowing her to take any Edge or ability usually reserved only for anouks. Furthermore, when her time comes, she’s more likely to become a Guardian (see Guardians on page 74).</br> Some Banshee Born have the Outsider Hindrance, but it’s not mandatory. Occasional colonists may see her as having “gone native,” and the most ignorant and racist of the lot may occasionally use this as an excuse for violence, but most don’t know or care.</br> Anouks are slightly more favorable to Banshee Born humans—add +1 to Persuasion rolls with dealing with them."
+  },
+  {
+    "name": "Don’t Get ’IM Riled!",
+    "book": "deadlands lost colony",
+    "reqText": "Novice",
+    "req": [""],
+    "rank": "Novice",
+    "category": "Background",
+    "desc": "Heroes with this Edge are a mean and surly lot when things get rough. They add their Wound penalties to any Fighting damage rolls. A hero with a −3 Wound penalty, for instance, adds +3 to his melee damage. It has no effect on ranged or thrown attacks."
+  },
+  {
+    "name": "Quick Draw",
+    "book": "deadlands lost colony",
+    "reqText": "Novice, Agility d8+",
+    "req": ["Agility"],
+    "rank": "Novice",
+    "category": "Background",
+    "desc": "You draw two additional cards when spending a Benny for an Action Card at the beginning of a round instead of one. You may choose your final Action Card from any of your available choices, including additional draws from Level Headed, Quick, etc. You also add +2 to Athletics rolls made to interrupt others’ actions (including resisting being interrupted)."
+  },
+  {
+    "name": "Veteran O’ The Way Out West",
+    "book": "deadlands lost colony",
+    "reqText": "Wild Card, Novice, Occult d6+",
+    "req": ["Wild Card", "Occult"],
+    "rank": "Novice",
+    "category": "Background",
+    "desc": "Your spacer has fought pirates in the Belt, dodged twisters in Tornado Alley, and scrapped with anouks in the Cold. There’s little in Faraway she hasn’t faced down and lived to tell about. Your character starts at Seasoned Rank, which means she has four Advances to spend immediately after character creation.</br> That experience doesn’t come free, however. The Faraway system has left its mark. If you take this Edge, draw a single card from the Action Deck and show it to the Marshal. There’s a table on page 105 that tells her what your character faced in the past and what effect it had on her. Here’s a free bit of advice, though—the results can be pretty harsh, anything from a lost limb to insanity or worse!"
+  },
+
+  {
+    "name": "Colonial Ranger",
+    "book": "deadlands lost colony",
+    "reqText": "Novice, Vigor d6+, Common Knowledge d6+, Language (Anouk) d4+, Intimidation d6+, Shooting d6+",
+    "req": [
+      "Vigor",
+      "Common Knowledge",
+      "Language (Anouk)",
+      "Intimidation",
+      "Shooting"
+    ],
+    "rank": "Novice",
+    "category": "Professional",
+    "desc": "Colonial Rangers are the law enforcement arm of the United Colonial Assembly. While each locality on Banshee usually has a law dog of its own, the Rangers’ jurisdiction encompasses any human on the planet and any vessel or station in orbit around it. They’re also tasked with enforcing the human side of any treaty boundaries with the anouks. Unfortunately, due to their perpetual state of understaffing and overtasking, this usually amounts to little more than telling any settlers on anouk lands that the trespassers are on their own. Colonial Rangers receive the title and badge that grants them nominal authority over all human settlements on Banshee. Of course desperadoes and even a fair number of citizens ignore this authority when they can get away with it, so real power comes as it always does: attitude, willpower, and occasionally, violence. The Rangers’ jurisdiction is a little more tenuous in space where other powers such as EXFOR claims dominion, but technically they still claim it over anything that isn’t explicitly someone else’s domain. Rangers also get a uniform (which few wear in its entirety), a Dragoon pistol (see page 47), and body armor (page 45). Basic equipment damaged in the course of duty can be replaced free of charge at a Ranger station.</br> Mission-essential equipment, such as a Stallion (page 60) or other vehicle, may be assigned by the hero’s superior officers on as-needed basis."
+  },
+  {
+    "name": "Gravitic Acclimation",
+    "book": "deadlands lost colony",
+    "reqText": "Novice, Agility d6+",
+    "req": ["Agility"],
+    "rank": "Novice",
+    "category": "Professional",
+    "desc": "Your spacer knows how to operate in different gravities. She ignores the usual −2 penalty for operating in a gravity other than her own (see Zero-G, page 64)."
+  },
+  {
+    "name": "Guts",
+    "book": "deadlands lost colony",
+    "reqText": "Novice, Spirit d6+",
+    "req": ["Spirit"],
+    "rank": "Novice",
+    "category": "Professional",
+    "desc": "This Way Out Wester isn’t fearless, she just bucks up and gets the job done even when she’s more scared than a long-tailed chanouk in a room full of rocking chairs. Your hero gets a free reroll on Spirit rolls made to resist Fear."
+  },
+  {
+    "name": "Tale-Teller",
+    "book": "deadlands lost colony",
+    "reqText": "Novice, Persuasion d8+",
+    "req": ["Persuasion"],
+    "rank": "Novice",
+    "category": "Professional",
+    "desc": "A good storyteller not only entertains, he gives hope and comfort as well. Colonists and spacers in the Way Out West can use all the hope and comfort they can find. We don’t want to say too much, but good tale-tellers are critical to saving the world. What? The world needs saving? You bet it does. Spreading the tales of your posse’s derring-do is far more important in the grand scheme of things than the ability to fire a gun or ride a chanouk. So if you do something amazing, bucko, tell people about it!</br> The Marshal has the skinny on all this (see page 101), but the basics are that if you ever make a Persuasion roll to lower the local Fear Level, you add +2 to your total. When a Tale-Teller successfully lowers the local Fear Level, he and anyone who Supports the storytelling attempt automatically earn a Conviction token (see Savage Worlds). Talk to the Marshal about this, amigo. We’ve already told you more than we should."
+  },
+  {
+    "name": "Grit",
+    "book": "deadlands lost colony",
+    "reqText": "Veteran, Spirit d8+, Guts",
+    "req": ["Spirit", "Guts"],
+    "rank": "Veteran",
+    "category": "Weird",
+    "desc": "Through perseverance and maybe a little insanity, this hardcase reduces all Fear penalties by 2. This stacks with Brave."
+  },
+  {
+    "name": "Guardian",
+    "book": "deadlands lost colony",
+    "reqText": "Wild Card, Novice, Spirit d6+",
+    "req": ["Wild Card", "Spirit"],
+    "rank": "Novice",
+    "category": "Weird",
+    "desc": "On rare occasions, a colonist or anouk seemingly cheats death and returns to the land of the living. These lucky souls find themselves granted a second chance at life, but also return with a deep and profound connection to Banshee itself. This connection provides the Guardian with unique abilities, but also a responsibility to stand against the darkness that threatens to engulf the living planet. If your character is reborn into the life of a Guardian, you can read the details on it in No Man’s Land (page 69).</br> The Guardian Edge may only be selected at character creation, but you might become one if your hero bites the Banshee dust. See page 74 if you want to know more about becoming one of the living planet’s chosen protectors. Just realize it means taking a short dirt nap first…"
+  },
+  {
+    "name": "Harrowed",
+    "book": "deadlands lost colony",
+    "reqText": "Wild Card, Novice, Spirit d6+",
+    "req": ["Wild Card", "Spirit"],
+    "rank": "Novice",
+    "category": "Weird",
+    "desc": "Some spacers are just too tough to lie down and stay dead when their time comes. The price they pay is an eternal battle for their own souls with demonic “manitous.”In return, the treacherous creatures grant their host’s unlife and incredible powers. Harrowed aren’t common anywhere, particularly the Faraway system, but a few have risen from Banshee’s soil over the years. You can read up on the Harrowed in No Man’s Land (page 76). The Edge may only be selected at character creation, for obvious reasons. You can’t take it later…at least not on purpose."
+  },
+  {
+    "name": "Tannis Bond",
+    "book": "deadlands lost colony",
+    "reqText": "Seasoned, Anouk or Banshee Born or Guardian, Spirit d6+",
+    "req": ["Anouk", "Banshee", "Born", "Guardian", "Spirit"],
+    "rank": "",
+    "category": "Weird",
+    "desc": "Banshee imbues certain of her children with her phenomenal energy. Those so chosen add +2 to the damage total of any attack made with a tannis weapon, and the bonus of any armor made from tannis (such as aknouk breastplates, see page 45), is treated as additional Toughness rather than Armor (so it ignores the AP value of incoming attacks). Both bonuses count as “magical.”"
+  },
+  {
+    "name": "Tannis Touch",
+    "book": "deadlands lost colony",
+    "reqText": "Wild Card, Novice, Anouk or Banshee Born or Guardian, Spirit d6+",
+    "req": ["Guardian", "Banshee Born", "Spirit", "Anouk", "Wild Card"],
+    "rank": "Novice",
+    "category": "Weird",
+    "desc": "You hero is “attuned” to tannis. He can automatically identify where on the planet it came from, and if it’s a tool or weapon, gets a sense of any former owners, great deeds performed with the object, and so on. The anouk can also merge tannis with other samples and shape it into simple tools or any of the anouk weapons listed in the Gear chapter. The stone slowly takes on the consistency of clay as he does so, then slowly hardens back to its natural hardness. This process takes an hour per pound of stone worked."
+  },
+  {
+    "name": "True Grit",
+    "book": "deadlands lost colony",
+    "reqText": "Legendary, Guts, Spirit d10+",
+    "req": ["Guts", "Spirit"],
+    "rank": "Legendary",
+    "category": "Legendary",
+    "desc": "This grizzled spacer has seen some things that’d make others’ eyes pop like they were decompressing. He ignores all penalties when making Fear checks. Penalties still apply on the Fear Effects Table, but he reduces the total by 2."
+  }
+]

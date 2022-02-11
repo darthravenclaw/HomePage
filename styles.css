@@ -1,0 +1,34 @@
+:root {
+  --font-large: 1.8em;
+  --font-small: 1.1em;
+  --color-Selected: hls(204, 51%, 78%);
+}
+
+
+.projectLink{
+  text-decoration: none;
+  color: hsl(204, 70%, 91%);
+  background-color: hsl(204, 70%, 51%);
+  border-color: hsl(204, 70%, 41%);
+  border-radius: 5.5px;
+  font-size: 1.8em;
+  height: auto;
+  width: fit-content;
+  padding:0.2em 0.4em ;
+  margin:0.3em;
+}
+body{
+
+  text-align: center;
+
+}
+header{
+  margin-bottom :5em;
+}
+#projectsContainer{
+  display :flex;
+   
+  justify-content: center; /* center horizontally */
+  align-items: center; /* center vertically */
+  flex-direction: column;
+}

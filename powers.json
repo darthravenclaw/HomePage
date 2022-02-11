@@ -1,0 +1,1605 @@
+[
+  {
+    "name": "Arcane Protection",
+    "classes": ["huckster", "mad scientist", "shaman", "voodooist", "witch"],
+    "books": ["main"],
+    "rank": "Novice",
+    "points": "1",
+    "range": "Smarts",
+    "duration": "5",
+    "trappings": "Concentration, a dull glow around the protected character, a fetish.",
+    "disc": "Success with arcane protection means hostile Powers suffer a -2 penalty (-4 with a raise) to affect this character. If the Power causes harm, Damage is also reduced a like amount. Arcane protection stacks with Arcane Resistance should the recipient have both!",
+    "mods": [
+      {
+        "name": "Additional Recipients",
+        "cost": "(+1)",
+        "disc": "The Power may affect more than one target for 1 additional Power Point each."
+      }
+    ]
+  },
+  {
+    "name": "Banish",
+    "classes": ["shaman", "voodooist", "witch"],
+    "books": ["main", "deadlands"],
+    "rank": "Veteran",
+    "points": "3",
+    "range": "Smarts",
+    "duration": "Instant",
+    "trappings": "Holy items, arcane symbols, handful of salt.",
+    "disc": "Banish sends entities from immaterial planes back to their native dimensions. This includes ghosts, demons, elementals, and similar beings (at the GM's discretion). Banishing a being is an opposed roll of the caster's arcane skill versus the target's Spirit. Success means the target is Shaken, and each raise causes a Wound. If this Incapacitates the target it returns to its native plane of existence. Banished entities may return when the Game Master feels it's appropriate, such as the next full moon, when summoned again, or even a few rounds later if it's a particularly Powerful creature under the right conditions or in a location of Power.</br></br> In Deadlands Banish works as described in Savage Worlds, but using it on the Harrowed requires some additional description.The manitou inside a Harrowed can never be permanently banished or destroyed with this Power—it's bound to the host, body and spirit. A successful banishment does, however, render the hateful thing “inert” for an hour. During this time the Harrowed can't use any of his Harrowed Edges or Let the Devil Out (see page 59), but he retains the basic abilities granted by being Undead. If the manitou has obtained total Dominion, the host's consciousness returns while it's inert, but is subjugated once more when the manitou reasserts its control (and is no longer inert).",
+    "mods": []
+  },
+  {
+    "name": "Barrier",
+    "classes": ["syker", "huckster", "mad scientist", "voodooist", "witch"],
+    "books": ["main"],
+    "rank": "Seasoned",
+    "points": "2",
+    "range": "Smarts",
+    "duration": "5",
+    "trappings": "Fire, ice, thorns, force, bones, energy.",
+    "disc": "Barrier creates a straight wall 5″ (10 yards) long and 1″ (two yards) tall, of immobile material that conforms to the surface it's cast upon. Thickness varies depending on what the wall is made of, but is usually a few inches. The wall has a Hardness of 10, and may be destroyed as any other object (see Breaking Things on page 98). When the spell expires or the wall is broken it crumbles to dust or dissipates. Trappings are never left behind.",
+    "mods": [
+      {
+        "name": "Damage",
+        "cost": "(+1)",
+        "disc": "The barrier causes 2d4 Damage to anyone who contacts it."
+      },
+      {
+        "name": "Hardened",
+        "cost": "(+1)",
+        "disc": "The wall is Hardness 12."
+      },
+      {
+        "name": "Shaped",
+        "cost": "(+2)",
+        "disc": "The barrier forms a circle,  square or other basic shape."
+      },
+      {
+        "name": "Size",
+        "cost": "(+1)",
+        "disc": "The length and height of the barrier doubles."
+      }
+    ]
+  },
+  {
+    "name": "Beast Friend",
+    "classes": [
+      "syker",
+      "huckster",
+      "anouk shaman",
+      "mad scientist",
+      "shaman",
+      "voodooist",
+      "witch"
+    ],
+    "books": ["main"],
+    "rank": "Novice",
+    "points": "Special",
+    "range": "Smarts",
+    "duration": "10 minutes",
+    "trappings": "The caster concentrates and gestures with his hands.",
+    "disc": "This spell allows an individual to speak with and guide the actions of nature's beasts. The cost to cast is equal to the sum of their Size (minimum 1 per creature; see the creatures in Chapter Six for examples). Controlling five wolves (Size –1) costs 5 points (remember the minimum cost of 1), for example. Controlling a rhino (Size 5) costs 5 points. Success means the creatures obey simple commands, like a well-trained dog. They attack foes and endanger their lives for their master. A raise on the arcane skill roll means the beasts are more obedient. They won't kill themselves but overcome their natural fears to follow their orders. Swarms can also be controlled. Small Swarms cost 1 point, Medium Swarms cost 2, and Large Swarms cost 3. Beast friend works only on natural creatures with animal intelligence, not humanoids, and has no effect on conjured, magical, or otherwise “unnatural” animals.",
+    "mods": [
+      {
+        "Name": "Mind Rider",
+        "cost": "(+1)",
+        "disc": "The caster can communicate and sense through any of the beasts he's befriended."
+      }
+    ]
+  },
+  {
+    "name": "Blast",
+    "classes": ["mad scientist", "witch"],
+    "books": ["main"],
+    "rank": "Seasoned",
+    "points": "3",
+    "range": "Smarts * 2",
+    "duration": "Instant",
+    "trappings": "Balls of fire, ice, light, darkness, colored bolts, swarm of insects.",
+    "disc": "Blast launches a ball of explosive energy or matter. The area of effect is a Medium Blast Template. Every target within suffers 2d6 Damage, or 3d6 with a raise (see Area Effect Attacks, page 97).",
+    "mods": [
+      {
+        "name": "Area of Effect",
+        "cost": "(+0/+1)",
+        "disc": "The caster can focus the blast to a Small Blast Template for no extra cost, or a Large Blast Template for +1."
+      },
+      {
+        "name": "Damage",
+        "cost": "(+2)",
+        "disc": "The blast causes 3d6 Damage (4d6 with a raise)."
+      }
+    ]
+  },
+  {
+    "name": "Blind",
+    "classes": [
+      "syker",
+      "huckster",
+      "breaker",
+      "mad scientist",
+      "shaman",
+      "voodooist",
+      "witch"
+    ],
+    "books": ["main"],
+    "rank": "Novice",
+    "points": "2",
+    "range": "Smarts",
+    "duration": "Instant",
+    "trappings": "Bright flash of light, sand in eyes, confusion.",
+    "disc": "Those affected by this malicious Power suffer blurred vision or near-complete blindness with a raise. Success means the victim suffers a -2 penalty to all actions requiring sight, or -4 with a raise. The victim automatically tries to shake off the effect with a Vigor roll as a free action at the end of his following turns. Success removes 2 points of penalties, and a raise removes the effect entirely.",
+    "mods": [
+      {
+        "name": "Area of Effect",
+        "cost": "(+2/+3)",
+        "disc": "For +2 points the Power affects everyone in a Medium Blast Template. For +3 points the area of effect is increased to a Large Blast Template."
+      },
+      {
+        "name": "Strong",
+        "cost": "(+1)",
+        "disc": "The Vigor roll to shake off the effect is made at -2."
+      }
+    ]
+  },
+  {
+    "name": "Bolt",
+    "classes": ["syker", "huckster", "anouk shaman", "mad scientist", "witch"],
+    "books": ["main"],
+    "rank": "Novice",
+    "points": "1",
+    "range": "Smarts *2",
+    "duration": "Instant",
+    "trappings": "Fire, ice, light, darkness, colored bolts, a stream of insects.",
+    "disc": "Bolt sends damaging bursts of energy, streaks of holy light, or shards of matter toward one's foes. There are no Range penalties, but the arcane skill roll is affected by Cover, Illumination, and all other usual penalties. The Damage of the bolt is 2d6, or 3d6 with a raise.",
+    "mods": [
+      {
+        "name": "Damage",
+        "cost": "(+2)",
+        "disc": "The bolt causes 3d6 Damage (4d6 with a raise)."
+      }
+    ]
+  },
+  {
+    "name": "Boost/Lower Trait",
+    "classes": [
+      "syker",
+      "huckster",
+      "anouk shaman",
+      "mad scientist",
+      "shaman",
+      "voodooist",
+      "witch"
+    ],
+    "books": ["main"],
+    "rank": "Novice",
+    "points": "2",
+    "range": "Smarts",
+    "duration": "5 (boost); Instant (lower)",
+    "trappings": "Physical change, glowing aura, potions.",
+    "disc": "This Power allows a character to increase or decrease a target's Trait (attribute or skill). Boosting an ally's Trait increases the selected Trait one die type, or two with a raise. Lowering an enemy's Trait has a Duration of Instant and lowers the selected attribute or skill a die type with success, or two with a raise (to a minimum of d4). A victim automatically tries to shake off the effect with a Spirit roll as a free action at the end of his following turns. Success improves the effect one die type, and a raise removes the effect entirely. Additional castings don't stack on a single Trait (take the highest), but may affect different Traits.",
+    "mods": [
+      {
+        "name": "Additional Recipients",
+        "cost": "(+1)",
+        "disc": "The Power may affect more than one target for 1 additional Power Point each."
+      },
+      {
+        "name": "Strong",
+        "cost": "(+1)",
+        "disc": "Lower Trait only. The Spirit roll to shake off the effect is made at -2."
+      }
+    ]
+  },
+  {
+    "name": "Burrow",
+    "classes": ["anouk shaman", "mad scientist", "shaman"],
+    "books": ["main"],
+    "rank": "Novice",
+    "points": "2",
+    "range": "Smarts",
+    "duration": "5",
+    "trappings": " Dissolving into the earth and appearing elsewhere.",
+    "disc": "Burrow allows the recipient to meld into raw earth. He can remain underground if he wants in a sort of “limbo” or burrow through the ground at half his normal Pace (or full Pace with a raise). He may not run. A burrowing character may attempt to surprise a foe by making an opposed Stealth versus Notice roll. If the burrower wins, the target is Vulnerable to him only. With a raise, the burrower gets the Drop. Targets on Hold may attempt to interrupt the attack before it occurs. Burrowers can't usually surprise a foe once their presence is known, but can still burrow for protection and mobility.",
+    "mods": [
+      {
+        "name": "Additional Recipients",
+        "cost": "(+1)",
+        "disc": "The Power may affect more than one target for 1 additional Power Point each."
+      },
+      {
+        "name": "Power",
+        "cost": "(+1)",
+        "disc": "The caster can burrow through stone, concrete, or similar substances. (Some substances, like plastic, glass, solid lead, etc., might be resistant at the GM's discretion.)"
+      }
+    ]
+  },
+  {
+    "name": "Burst",
+    "classes": ["huckster", "breaker", "mad scientist"],
+    "books": ["main"],
+    "rank": "Novice",
+    "points": "2",
+    "range": "Cone Template",
+    "duration": "Instant",
+    "trappings": "A shower of flames, light, or other matter or energy.",
+    "disc": "Burst produces a large fan of energy that bathes its targets in red-hot fire, a cone of cold, or other damaging matter or energy. Success creates a Cone Template starting at the caster and extending outward (see Area Effect Attacks, page 97). Everything within suffers 2d6 Damage (or 3d6 with a raise).",
+    "mods": [
+      {
+        "name": "Damage",
+        "cost": "(+2)",
+        "disc": "The burst causes 3d6 Damage, or 4d6 with a raise."
+      }
+    ]
+  },
+  {
+    "name": "Confusion",
+    "classes": [
+      "syker",
+      "huckster",
+      "breaker",
+      "mad scientist",
+      "shaman",
+      "voodooist",
+      "witch"
+    ],
+    "books": ["main"],
+    "rank": "Novice",
+    "points": "1",
+    "range": "Smarts",
+    "duration": "Until the end of the victim's next turn",
+    "trappings": "Hypnotic lights, brief illusions, loud noises.",
+    "disc": "Confusion confounds a target, making him both Distracted and Vulnerable if he fails a Smarts roll (at -2 with a raise on the arcane skill roll). Both states are removed at the end of the victim's next turn.",
+    "mods": [
+      {
+        "name": "Area of Effect",
+        "cost": "(+2/+3)",
+        "disc": "For +2 points the Power affects everyone in a Medium Blast Template. For +3 points the area of effect is increased to a Large Blast Template."
+      }
+    ]
+  },
+  {
+    "name": "Damage Field",
+    "classes": ["huckster", "breaker", "mad scientist"],
+    "books": ["main"],
+    "rank": "Seasoned",
+    "points": "4",
+    "range": "Smarts",
+    "duration": "5",
+    "trappings": "Fiery aura, spikes, electrical field.",
+    "disc": "Damage field creates a dangerous aura around the recipient that harms foes foolish enough to get too close. At the end of the affected character's turn, all adjacent beings (including allies!) automatically take 2d4 Damage.",
+    "mods": [
+      {
+        "name": "Damage",
+        "cost": "(+2)",
+        "disc": "The Damage field causes 2d6 Damage."
+      }
+    ]
+  },
+  {
+    "name": "Darksight",
+    "classes": ["mad scientist", "shaman", "voodooist", "witch"],
+    "books": ["main"],
+    "rank": "Novice",
+    "points": "1",
+    "range": "Smarts",
+    "duration": "One hour",
+    "trappings": "Glowing eyes, dilated pupils, sonic sight.",
+    "disc": "Darksight allows a hero to see in the dark. With success, he ignores up to 4 points of illumination penalties. With a raise, he ignores up to six points and can see in pitch darkness.",
+    "mods": [
+      {
+        "name": "Additional Recipients",
+        "cost": "(+1)",
+        "disc": "The Power may affect more than one target for 1 additional Power Point each."
+      }
+    ]
+  },
+  {
+    "name": "Deflection",
+    "classes": [
+      "syker",
+      "huckster",
+      "breaker",
+      "mad scientist",
+      "shaman",
+      "voodooist",
+      "witch"
+    ],
+    "books": ["main"],
+    "rank": "Novice",
+    "points": "3",
+    "range": "Smarts",
+    "duration": "5",
+    "trappings": "Mystical shield, gust of wind, phantom servant that intercepts missiles.",
+    "disc": "Deflection Powers work in a variety of ways. Some manifestations actually deflect incoming attacks, others blur the target's form or produce illusionary effects. The end result is always the same, however—to misdirect incoming melee and missile attacks from the recipient of the Power. Once cast, foes must subtract 2 from attack rolls directed at the user (or 4 with a raise).",
+    "mods": [
+      {
+        "name": "Additional Recipients",
+        "cost": "(+1)",
+        "disc": "The Power may affect more than one target for 1 additional Power Point each."
+      }
+    ]
+  },
+  {
+    "name": "Detect/Conceal Arcana",
+    "classes": [
+      "syker",
+      "huckster",
+      "mad scientist",
+      "shaman",
+      "voodooist",
+      "witch"
+    ],
+    "books": ["main"],
+    "rank": "Novice",
+    "points": "2",
+    "range": "Smarts",
+    "duration": "5 (detect); one hour (conceal)",
+    "trappings": " Waving hands, whispered words.",
+    "disc": "Detect arcana allows the recipient of the Power to see and detect all supernatural persons, objects, or effects in sight. This includes invisible foes, enchantments on people or items, weird science devices, and so on. With a raise, the caster knows the general type of enchantment as well—harmful, obscurement, magic, miracles, etc. Detect arcana also allows a character to ignore up to 4 points of penalties when attacking foes hidden by magical darkness, invisibility, or similar abilities (or all penalties with a raise). Conceal arcana prevents detection of arcane energies on one being or item of Normal Scale (see the Size Table page 179). Detect vs. Conceal: Detecting arcana against someone or something that's been concealed is an opposed roll of arcane skills (roll each time it's attempted, but no more than once per turn). If the concealment wins, the character cannot see through the ruse with this casting, but may terminate this instance and try again.",
+    "mods": [
+      {
+        "name": "Additional Recipients",
+        "cost": "(+1)",
+        "disc": "The Power may affect more than one viewer for detect, or item for conceal, for 1 additional Power Point each."
+      },
+      {
+        "name": "Area of Effect",
+        "cost": "(+1/+2)",
+        "disc": "Conceal only. The Power affects everything in a sphere the Size of a Medium Blast Template for +1 points, or a Large Blast Template for +2."
+      },
+      {
+        "name": "Strong",
+        "cost": "(+1)",
+        "disc": "Conceal only. Detection rolls to see through the concealment are made at -2."
+      }
+    ]
+  },
+  {
+    "name": "Disguise",
+    "classes": ["huckster", "mad scientist", "shaman"],
+    "books": ["main"],
+    "rank": "Seasoned",
+    "points": "2",
+    "range": "Smarts",
+    "duration": "10 minutes",
+    "trappings": "Malleable features, illusionary appearance, hair of new form.",
+    "disc": "Disguise allows the target to assume the appearance of another person of the same Size and shape, including clothing. It does not confer any abilities, however. Those who have reason to question the imposter's identity make a Notice roll at -2 to see through the disguise (-4 with a raise on the casting roll). This is a free action.",
+    "mods": [
+      {
+        "name": "Additional Recipients",
+        "cost": "(+1)",
+        "disc": "The Power may affect more than one target for 1 additional Power Point each."
+      },
+      {
+        "name": "Size",
+        "cost": "(+1)",
+        "disc": "The recipient may assume the shape of someone up to two Sizes larger or smaller than themselves."
+      }
+    ]
+  },
+  {
+    "name": "Dispel",
+    "classes": ["huckster", "mad scientist", "shaman", "voodooist", "witch"],
+    "books": ["main"],
+    "rank": "Seasoned",
+    "points": "1",
+    "range": "Smarts",
+    "duration": "Instant",
+    "trappings": "Waving hands, whispered words.",
+    "disc": "Dispel allows a hero to negate enemy Powers. It has no effect on permanent enchantments or innate abilities such as a dragon's breath or a banshee's scream. Dispel affects arcane devices normally (see Arcane Devices, page 152). Dispel can be used on a Power already in effect or to counter an enemy Power as it's being used. The latter requires the countering mage to be on Hold and interrupt his foe's action. In either case, dispelling an opponent's Power is an opposed roll of arcane skills (with a -2 modifier if the rival's Power is of another type such as magic vs. miracles, psionics vs. weird science, etc.). If the dispelling character wins, the targeted Power ends immediately (or fails if it was countered with the usual results of failure). With a raise, the recipient of the dispelled Power is also Distracted.",
+    "mods": [
+      {
+        "name": "Power",
+        "cost": "(+1)",
+        "disc": "For +1 Power Points, dispel can disrupt enchanted devices for one round, or two with a raise. The difficulty to do so is -2 for permanently enchanted items such as found in most swords & sorcery campaigns, or -4 for divine or legendary relics."
+      }
+    ]
+  },
+  {
+    "name": "Divination",
+    "classes": ["huckster", "shaman", "voodooist", "witch"],
+    "books": ["main"],
+    "rank": "Heroic",
+    "points": "5",
+    "range": "Self",
+    "duration": "A brief conversation of about five minutes.",
+    "trappings": "Seances, prayers, demonic interrogation.",
+    "disc": "Divination allows the caster to contact otherworldly beings or forces to gain information. Preparing the spell takes one uninterrupted minute, and must be done at a site relevant to the spirit being contacted. If speaking with a ghost, for example, the conversation should occur at its grave, where it was killed, or with a personal object in hand. Oracles may only be engaged at temples, fire spirits near open flames, and so on. After the preparation time is complete, the caster makes her arcane skill roll. Success allows her to engage with the spirit and ask it any questions she might have. The entity must answer to the best of its ability, as directly or ambiguously as the Game Master feels fits the spirit's personality and the feel of her campaign. A raise means the spirit is more helpful, knowledgeable, or direct than usual (whether it wants to be or not). The type of entity contacted determines how it communicates. Spirits in the netherworld tend to know only those things pertinent to their life and death—and they may not even know the identity of their killer if the person was masked or unseen. Likewise, nature spirits know only about their local environs, demons know only about the affairs they're directly involved in, and so on. The Game Master must decide what the entity knows based on its background, origin, and personality. Once a spirit has been conversed with it may not be contacted again for 24 hours. The Game Master may extend this to a community of spirits in a single place, such as water spirits in a babbling brook or nameless spirits in a mass grave.",
+    "mods": []
+  },
+  {
+    "name": "Drain Power Points",
+    "classes": ["syker", "anouk shaman", "mad scientist", "shaman"],
+    "books": ["main"],
+    "rank": "Veteran",
+    "points": "2",
+    "range": "Smarts",
+    "duration": "Instant",
+    "trappings": "Prayer, whispered words, gestures.",
+    "disc": "Powerful mages, priests, psykers, and the like can use this ability to drain arcane energy from their foes. They can sometimes even leech the stolen energy for themselves. The Power is opposed by the target's Spirit, and the caster suffers a -2 penalty to her roll if the target has a different Arcane Background than her own. Success drains 1d6 of the rival's Power Points (if any, and the die doesn't Ace). With a raise, the caster adds the points to her own. This may take her above her usual maximum! They last until used, and must be the first spent when casting. Drain Power Points can also be used on an arcane device (the creator still resists with her arcane skill whether she wields it or not). The device can't lose more Power Points than it has.",
+    "mods": []
+  },
+  {
+    "name": "Elemental Manipulation",
+    "classes": ["huckster", "mad scientist", "shaman"],
+    "books": ["main"],
+    "rank": "Novice",
+    "points": "1",
+    "range": "Smarts",
+    "duration": "5",
+    "trappings": "A few simple gestures.",
+    "disc": "This Power grants basic control over the four traditional elements: air, earth, fire, and water (the elements may vary depending on the setting). The Power acts as if it has a d6 Strength, or d8 with a raise. Here are some ideas for what each element can do. Each is an action. </br><b>AIR</b>: Push someone, blow out a torch, fan a flame, cool someone down (+2 to Fatigue rolls in oppressive heat). </br><b>EARTH</b>: Move a square foot of earth (half that in stone) each round, cover tracks. </br><b>FIRE</b>: Conjure flame about the Size of a torch, hurl a small blast of fire at someone (Str Damage), spread existing flame (see Fire on page 127). </br><b>WATER</b>: Conjure a quart of water (not “inside” objects or people), purify a gallon of water per casting.",
+    "mods": []
+  },
+  {
+    "name": "Empathy",
+    "classes": [
+      "syker",
+      "huckster",
+      "mad scientist",
+      "shaman",
+      "voodooist",
+      "witch"
+    ],
+    "books": ["main"],
+    "rank": "Novice",
+    "points": "1",
+    "range": "Smarts",
+    "duration": "5",
+    "trappings": "Concentration, a warm or sympathetic smile, exchanging a pleasantry.",
+    "disc": "The caster forms an emotional bond between himself and the target with a successful arcane skill vs Spirit roll. He knows the target's emotional state and most basic surface thoughts, and gains +1 (+2 with a raise) to Intimidation, Persuasion, Performance, or Taunt rolls against him. Empathy also works on animals, adding +2 to Riding or other rolls used to interact with the creature.",
+    "mods": []
+  },
+  {
+    "name": "Entangle",
+    "classes": ["huckster", "mad scientist", "shaman"],
+    "books": ["main"],
+    "rank": "Novice",
+    "points": "2",
+    "range": "Smarts",
+    "duration": "Instant",
+    "trappings": "Glue bomb, vines, handcuffs, webs.",
+    "disc": "Entangle allows the caster to restrain a target with ice, bands of energy, or other vine-like Trappings (Hardness 5). If successful, the target is Entangled. With a raise, he's Bound. Victims may break free on their turn as detailed under Bound & Entangled on page 98.",
+    "mods": [
+      {
+        "name": "Area of Effect",
+        "cost": "(+2/+3)",
+        "disc": "For +2 points the Power affects everyone in a Medium Blast Template. For +3 points the area of effect is increased to a Large Blast Template."
+      },
+      {
+        "name": "Strong",
+        "cost": "(+2)",
+        "disc": "The entangling material is particularly resilient. Rolls to break free are made at -2 and its Toughness increases to 7."
+      }
+    ]
+  },
+  {
+    "name": "Environmental Protection",
+    "classes": ["huckster", "mad scientist", "shaman"],
+    "books": ["main"],
+    "rank": "Novice",
+    "points": "2",
+    "range": "Smarts",
+    "duration": "One hour",
+    "trappings": "A mark on the forehead, potions, gills.",
+    "disc": "Adventurers sometimes travel beneath the waves, in space, or other hazardous environments. This Power protects them from crushing depths, scathing heat, intense cold, and even radiation. Environmental protection allows the target to breathe, speak, and move at his normal Pace in an otherwise fatal environment. It protects him against intense heat, cold, radiation, atmospheric or fluid pressure, and lack of oxygen. Generally, the adventurer can function normally underwater, in space, within the cone of a volcano, etc. It fails quickly (1d4 rounds) in the presence of super-intense conditions such as actual lava or the massive radiation of a melting nuclear core, for example. Environmental protection reduces Damage from like sources by 4 (6 with a raise). If protecting against intense heat, for example, it protects against a flamethrower or bolt with a fire Trapping.",
+    "mods": [
+      {
+        "name": "Additional Recipients",
+        "cost": "(+1)",
+        "disc": "The Power may affect more than one target for 1 additional Power Point each."
+      }
+    ]
+  },
+  {
+    "name": "Farsight",
+    "classes": ["syker", "huckster", "mad scientist", "shaman"],
+    "books": ["main"],
+    "rank": "Seasoned",
+    "points": "2",
+    "range": "Smarts",
+    "duration": "5",
+    "trappings": "Invisibly marked targets, guiding winds, eagle eyes.",
+    "disc": "Farsight allows the recipient to see in detail over great distances. She can read lips or read fine print up to a mile distant. With a raise, she also halves Range penalties for Shooting, Athletics (throwing), or other abilities affected by Range.",
+    "mods": [
+      {
+        "name": "Additional Recipients",
+        "cost": "(+1)",
+        "disc": "The Power may affect more than one target for 1 additional Power Point each."
+      }
+    ]
+  },
+  {
+    "name": "Fear",
+    "classes": [
+      "syker",
+      "huckster",
+      "mad scientist",
+      "shaman",
+      "voodooist",
+      "witch"
+    ],
+    "books": ["main"],
+    "rank": "Novice",
+    "points": "2",
+    "range": "Smarts",
+    "duration": "Instant",
+    "trappings": "Gestures, eldritch energy, cold chills.",
+    "disc": "This Power causes overwhelming dread and horror. The affected make a Fear roll. Extras who fail are Panicked and Wild Cards roll on the Fear Table. If the Power is cast with a raise, the Fear roll is at -2 and Wild Cards add +2 to Fear Table results.",
+    "mods": [
+      {
+        "name": "Area of Effect",
+        "cost": "(+2/+3)",
+        "disc": "For +2 points the Power affects everyone in a Medium Blast Template. For +3 points the area of effect is increased to a Large Blast Template."
+      }
+    ]
+  },
+  {
+    "name": "Fly",
+    "classes": ["syker", "mad scientist"],
+    "books": ["main"],
+    "rank": "Veteran",
+    "points": "3",
+    "range": "Smarts",
+    "duration": "5",
+    "trappings": "Gusty winds, wings, broomsticks.",
+    "disc": "Fly allows a character to soar at Pace 12″, or twice that with a raise (he may not Run).",
+    "mods": [
+      {
+        "name": "Additional Recipients",
+        "cost": "(+2)",
+        "disc": "The Power may affect more than one target for 2 additional Power Points each."
+      }
+    ]
+  },
+  {
+    "name": "Growth/Shrink",
+    "classes": ["mad scientist", "shaman"],
+    "books": ["main"],
+    "rank": "Seasoned",
+    "points": "2 per point of Size change",
+    "range": "Smarts",
+    "duration": "5",
+    "trappings": "Gestures, words of Power, potions.",
+    "disc": "Growth increases the recipient's Size by 1 for every 2 Power Points spent. Each increase in Size grants the target a one-step increase to Strength and 1 point of Toughness (see page 178 for more on Size.) This does not increase Wounds regardless of change to Scale. Shrink reduces the Size of the subject one step for every 2 Power Points spent to a maximum of Size -2 (approximately the Size of a cat). Each step reduced decreases Strength one die type (minimum of d4) and Toughness by 1 (minimum of 2). For unwilling targets, the caster's arcane skill roll is opposed by Spirit.</br></br>Mad Scientists get shrink not growth</br>Shaman get growth not shrink",
+    "mods": []
+  },
+  {
+    "name": "Havoc",
+    "classes": [
+      "syker",
+      "huckster",
+      "breaker",
+      "mad scientist",
+      "shaman",
+      "voodooist",
+      "witch"
+    ],
+    "books": ["main"],
+    "rank": "Novice",
+    "points": "2",
+    "range": "Smarts",
+    "duration": "Instant",
+    "trappings": "Whirlwind, chaotic poltergeists, repulsion field.",
+    "disc": "This ability creates chaos and mischief for all those within its area of effect, hurling debris and rivals in all directions. With success, the caster places a Medium Blast Template anywhere within Range, or a Cone Template emanating from the caster (see Area Effect Attacks, page 97). Anyone touched by the template is Distracted and must then make a Strength roll (at -2 if the caster got a raise). Those who fail are hurled 2d6″—directly away from the caster if using the Cone Template or directly away from the center if using a Blast Template (the caster chooses for those in the dead center). Victims who strike a hard object (such as a wall) take 2d4 Damage (nonlethal unless it's a spiked wall or other more dangerous hazard). Airborne Targets: Flying or airborne targets suffer an additional -2 to their Strength rolls as they have no ground to brace themselves on.",
+    "mods": [
+      {
+        "name": "Area of Effect",
+        "cost": "(+1)",
+        "disc": "Havoc affects a Large Blast Template."
+      },
+      {
+        "name": "Strong",
+        "cost": "(+1)",
+        "disc": "Strength rolls are made at -2."
+      }
+    ]
+  },
+  {
+    "name": "Healing",
+    "classes": [
+      "syker",
+      "anouk shaman",
+      "mad scientist",
+      "shaman",
+      "voodooist",
+      "witch"
+    ],
+    "books": ["main"],
+    "rank": "Novice",
+    "points": "3",
+    "range": "Touch",
+    "duration": "Instant",
+    "trappings": "Laying on hands, touching the victim with a holy symbol, prayer.",
+    "disc": "Healing removes Wounds less than an hour old. The penalty to the caster's arcane skill roll is the victim's Wounds, if any (to a maximum of -3 for those who can take more than three). A success removes one Wound, and a raise removes two. The Power may be cast additional times to remove additional Wounds. For Extras, the GM must first determine if the ally is still alive (see Aftermath, page 96). If so, a successful arcane skill roll returns the ally to action (Shaken if it matters.)",
+    "mods": [
+      {
+        "name": "Greater Healing",
+        "cost": "(+10)",
+        "disc": "Greater healing can restore any Wound, including those more than an hour old."
+      },
+      {
+        "name": "Crippling Injuries",
+        "cost": "(+20)",
+        "disc": "The Power can heal a permanent Crippling Injury (see Incapacitation, page 95). This requires an hour of preparation and only one casting is permitted per injury. If it fails, this caster cannot heal that particular injury (but someone else may try). If successful, the subject is Exhausted for 24 hours."
+      },
+      {
+        "name": "Neutralize Poison or Disease",
+        "cost": "(+1)",
+        "disc": "A successful healing roll negates any poison or disease. If the poison or disease has a bonus or penalty associated with it, the modifier applies to the arcane skill roll as well."
+      }
+    ]
+  },
+  {
+    "name": "Illusion",
+    "classes": ["huckster", "mad scientist"],
+    "books": ["main"],
+    "rank": "Novice",
+    "points": "3",
+    "range": "Smarts",
+    "duration": "5",
+    "trappings": "Magical spells, holograms, “ethereal materializers.”",
+    "disc": "One of the greatest Powers is the ability to create something from nothing—even if it's not real! Illusion can be used to create a visual scene or replica of most anything the caster can imagine, but it is silent, intangible, and incapable of affecting the real world. For example, illusionary weapons pass through foes, one cannot sit in an illusionary chair, and an illusionary dog has no audible bark. Those who contact an illusion or doubt it's real make a Smarts roll as a free action (at -2 if the Power was activated with a raise). If successful, that individual is no longer subject to this casting. The GM should make group rolls for Extras as they point out the illusion's inconsistencies to each other. The volume of the illusion must fit within a sphere the Size of a Medium Blast Template (4″ or eight yards in diameter).",
+    "mods": [
+      {
+        "name": "Sound",
+        "cost": "(+1)",
+        "disc": "The Power generates sound appropriate to the illusion. Illusionary allies may talk, illusionary crows caw, and so on. It may not mask or mute existing sound, however."
+      },
+      {
+        "name": "Strong",
+        "cost": "(+2)",
+        "disc": "Smarts rolls to disbelieve the illusion are made at -2."
+      }
+    ]
+  },
+  {
+    "name": "Intangibility",
+    "classes": ["huckster", "mad scientist", "shaman"],
+    "books": ["main"],
+    "rank": "Heroic",
+    "points": "5",
+    "range": "Smarts",
+    "duration": "5",
+    "trappings": "Ghost form, body of shadow, gaseous transformation.",
+    "disc": "With a successful arcane skill roll, whoever receives this Power becomes incorporeal. He is unable to affect the physical world, and it cannot affect him. He can travel through walls, and non-magical weapons pass straight through him. Any items carried at the time of casting are also incorporeal. While incorporeal, the character may affect other incorporeal beings (including himself), and he is still susceptible to supernatural attacks, including Powers and enchanted items. The being becomes corporeal when the Power ends, but if within someone or something he's shunted to the nearest open space and Stunned. If cast on an unwilling target, the victim resists with Spirit.",
+    "mods": []
+  },
+  {
+    "name": "Invisibility",
+    "classes": ["syker", "huckster", "anouk shaman", "mad scientist"],
+    "books": ["main"],
+    "rank": "Seasoned",
+    "points": "5",
+    "range": "Smarts",
+    "duration": "5",
+    "trappings": "Powder, potion, iridescent lights.",
+    "disc": "With a success, the character and his personal items are transparent except for a vague blur or outline. Any action taken against him that requires sight is made at -4, or -6 with a raise. The same penalty applies to Notice rolls to detect the unseen presence.",
+    "mods": [
+      {
+        "name": "Additional Recipients",
+        "cost": "(+3)",
+        "disc": "The Power may affect more than one target for 3 additional Power Points each."
+      }
+    ]
+  },
+  {
+    "name": "Light/Darkness",
+    "classes": ["huckster", "mad scientist"],
+    "books": ["main"],
+    "rank": "Novice",
+    "points": "2",
+    "range": "Smarts",
+    "duration": "10 minutes",
+    "trappings": "Illusionary torch, sunlight, darkness, thick fogs.",
+    "disc": "Light creates bright illumination in a Large Blast Template. With a raise, the light can be focused into a 5″ (10 yard) beam as well. Darkness blocks illumination in an area the Size of a Large Blast Template, making the area Dark, or Pitch Darkness with a raise (see Illumination on page 102). If light and darkness overlap, they create a patch of Dim light (-2).",
+    "mods": [
+      {
+        "name": "Mobile",
+        "cost": "(+1)",
+        "disc": "The caster can move the area of effect up to his arcane skill die type each round after casting, or attach it to an inanimate object when first cast."
+      }
+    ]
+  },
+  {
+    "name": "Mind Link",
+    "classes": ["syker"],
+    "books": ["main"],
+    "rank": "Novice",
+    "points": "1",
+    "range": "Smarts",
+    "duration": "30 minutes",
+    "trappings": "Headpieces, talismans of Tao or other gods, crystals.",
+    "disc": "Mind link creates a telepathic connection between two individuals (which does not necessarily have to include the caster). The link accommodates only willing subjects and communication—thoughts that aren't consciously transmitted aren't relayed. Once activated, the Range between all linked minds is one mile, or five with a raise. If any of the linked characters suffers a Wound, all others must make a Smarts roll or be Shaken (this cannot cause a Wound). The speed of communication is that of normal speech, but with a raise members may communicate up to 30 seconds or so of speech on a single combat turn.",
+    "mods": [
+      {
+        "name": "Additional Recipients",
+        "cost": "(+1)",
+        "disc": " The Power may affect additional individuals for 1 additional Power Point each."
+      }
+    ]
+  },
+  {
+    "name": "Mind Reading",
+    "classes": ["syker"],
+    "books": ["main"],
+    "rank": "Novice",
+    "points": "2",
+    "range": "Smarts",
+    "duration": "Instant",
+    "trappings": "Psionic invasion, soulsight.",
+    "disc": "Mind reading is an opposed roll versus the target's Smarts. Success allows the character to gain one truthful answer from the subject. The target is aware of the mental intrusion unless the mind reader gets a raise. The GM may apply modifiers based on the subject's mental Hindrances or current state of mind.",
+    "mods": []
+  },
+  {
+    "name": "Mind Wipe",
+    "classes": ["syker", "mad scientist"],
+    "books": ["main"],
+    "rank": "Veteran",
+    "points": "3",
+    "range": "Smarts",
+    "duration": "Instant",
+    "trappings": "A noxious drink, parasites, touching the target's temples.",
+    "disc": "Mind wipe removes a target's memories, a terrible violation in most civilized societies. The Power is opposed by a victim's Smarts and requires a full minute of mental struggle. The victim must be conscious during this time, so if not restrained he can simply move out of Range. If successful, the victim forgets a single event (up to about 30 minutes of time). A raise removes a complex memory of several hours. If the defender wins, the caster cannot affect him with mind wipe for 24 hours. (Others may reattempt the Power, however.) The memory remains missing but Strong evidence that challenges its “logic” allows a Smarts roll at -2 to remember fragments determined by the GM.",
+    "mods": [
+      {
+        "name": "Edit",
+        "cost": "(+1)",
+        "disc": "Instead of wiping the memory, the caster edits it as she sees fit instead."
+      },
+      {
+        "name": "Fast Cast",
+        "cost": "(+2)",
+        "disc": "The caster can wipe a memory as an action."
+      }
+    ]
+  },
+  {
+    "name": "Object Reading",
+    "classes": ["huckster", "voodooist", "witch"],
+    "books": ["main"],
+    "rank": "Seasoned",
+    "points": "2",
+    "range": "Touch",
+    "duration": "Special",
+    "trappings": "Touching the object, glowing hands",
+    "disc": "Object reading is the ability to see the past of an inanimate object, discovering who held it, where it's been, and what it might have been used for. The object has no sentience of its own—the caster simply sees and hears visions of the past that took place in its presence. Success allows the character to see events that occurred within 10 yards up to about five years past. A raise increases this to 100 years and 20 yards. The caster can “fast forward” and “rewind” as desired, skimming about 10 years of history per minute of real time. When watching an actual event, it occurs in real time, just as if watching a digital tape.",
+    "mods": [
+      {
+        "name": "Audible History",
+        "cost": "(+2)",
+        "disc": "The caster can now hear sounds and conversations as well."
+      }
+    ]
+  },
+  {
+    "name": "Protection",
+    "classes": [
+      "syker",
+      "huckster",
+      "anouk shaman",
+      "mad scientist",
+      "shaman",
+      "voodooist",
+      "witch"
+    ],
+    "books": ["main"],
+    "rank": "Novice",
+    "points": "1",
+    "range": "Smarts",
+    "duration": "5",
+    "trappings": "A mystical glow, hardened skin, ethereal Armor, a mass of nanites.",
+    "disc": "Protection creates a field of energy or Armor around a character, giving him 2 points of Armor, or +4 with a raise. Whether the protection is visible or not depends on the Trapping—this is entirely up to the caster. Protection doesn't normally stack with other Armor, but see the Toughness modifier.",
+    "mods": [
+      {
+        "name": "Additional Recipients",
+        "cost": "(+1)",
+        "disc": "The Power may affect additional targets at a cost of 1 Power Point each."
+      },
+      {
+        "name": "More Armor",
+        "cost": "(+1)",
+        "disc": "Success grants 4 points of Armor (+6 with a raise)."
+      },
+      {
+        "name": "Toughness",
+        "cost": "(+2)",
+        "disc": "Protection provides Toughness instead of Armor and is not affected by AP (magical or otherwise). This means it stacks with natural or worn Armor. Pummel See Havoc, page 162."
+      }
+    ]
+  },
+  {
+    "name": "Puppet",
+    "classes": ["syker", "huckster", "mad scientist", "voodooist", "witch"],
+    "books": ["main"],
+    "rank": "Veteran",
+    "points": "3",
+    "range": "Smarts",
+    "duration": "5",
+    "trappings": "Glowing eyes, trance-like state, a swinging pocket watch, voodoo dolls.",
+    "disc": "Puppet is an opposed roll of the character's arcane skill versus the target's Spirit. With success, the victim automatically obeys commands that don't directly harm himself or those he cares about. With a raise, the target is completely controlled, but gets an automatic Spirit roll as a free action to avoid directly harming himself or those he cares about. If the puppet's resistance succeeds, he doesn't carry out that particular command but doesn't otherwise resist his master. With a raise, he breaks the controller's hold and the Power ends. Commands are general, such as “attack that person” or “open that door.” The controller doesn't get to dictate how many actions the victim uses in a turn, whether or not he uses his Sweep Edge, etc.",
+    "mods": [
+      {
+        "name": "Additional Recipients",
+        "cost": "(+2)",
+        "disc": "The caster may affect others at the cost of 2 Power Points each."
+      },
+      {
+        "name": "Mind Rider",
+        "cost": "(+1)",
+        "disc": "The caster can communicate and sense through any target under the effects of puppet."
+      }
+    ]
+  },
+  {
+    "name": "Relief",
+    "classes": [
+      "anouk shaman",
+      "mad scientist",
+      "shaman",
+      "voodooist",
+      "witch"
+    ],
+    "books": ["main"],
+    "rank": "Novice",
+    "points": "1",
+    "range": "Smarts",
+    "duration": "Instant",
+    "trappings": "Prayer, tonics.",
+    "disc": "Relief removes one Fatigue level, or two with a raise. It can also remove a character's Shaken status, and removes Stunned status with a raise.",
+    "mods": [
+      {
+        "name": "Additional Recipients",
+        "cost": "(+1)",
+        "disc": "The Power may affect more than one target for 1 additional Power Point each."
+      }
+    ]
+  },
+  {
+    "name": "Resurrection",
+    "classes": ["shaman"],
+    "books": ["main"],
+    "rank": "Heroic",
+    "points": 30,
+    "range": "Touch",
+    "duration": "Instant",
+    "trappings": "Elaborate ceremonies, rare plants, magical amulets, divine intervention",
+    "disc": "Perhaps the greatest Power of all is the ability to bring someone back from the dead. It can restore lost loves, bring solace to the grieving, and topple kingdoms. Returning the dead to life requires a reasonably complete corpse no more than a year old. The caster then prays, meditates, chants, or otherwise concentrates on mending the body and pulling the spirit back to it for four hours. Once done, the healer makes a casting roll at -8. If successful, the victim returns to life with three Wounds and is Exhausted. With a raise, she returns merely Exhausted.",
+    "mods": [
+      {
+        "name": "Power",
+        "cost": "(+5)",
+        "disc": "The hero can raise a spirit dead up to a decade for +5 Power Points."
+      }
+    ]
+  },
+  {
+    "name": "Shape Change",
+    "classes": ["shaman"],
+    "books": ["main"],
+    "rank": "Novice",
+    "points": "Special",
+    "range": "Self",
+    "duration": "5",
+    "trappings": "“Morphing,” talismans, tattoos.",
+    "disc": "Many cultures have legends of shamans or wizards who take on the shape of animals. This Power does just that, allowing the caster to take the form of any animal (including fantastic creatures such as dragons and hippogriffs if they exist in that setting, but not humanoids, undead, etc). What a character can change into depends on his rank: With a raise on the roll, the character transforms into a particularly large version of its type—increase its Strength and Vigor by one die type each. Weapons and other personal effects are assumed into the animal's form and reappear when the Power ends, but other objects are dropped. While transformed, the character retains his own Smarts, Spirit, Hindrances, Edges, and linked skills (though he may not be able to use some or all of them depending on the form— GM's call). He gains the animal's Agility, Strength, Vigor, and linked skills and cannot use most devices that require humanoid form. He has no capacity for speech and cannot use his own Powers, though he may continue to maintain Powers previously activated. A creature's natural abilities inherent to its form are conferred, but magical ones aren't. A dragon can fly and breathe fire in a traditional fantasy setting, for example, so a character who shape changes into one may do so as well. If dragons also cast spells in that world, however, shape change would not grant that ability because it's not inherent to the physical form. Size: The caster does not inherit extra Wounds when transforming into creatures of Large, Huge, or Gargantuan Scale (page 179).",
+    "mods": [
+      { "name": "Novice", "cost": "3", "disc": "Size -2 to Size -1" },
+      { "name": "Seasoned", "cost": "5", "disc": "Size 0" },
+      { "name": "Veteran", "cost": "8", "disc": "Size 1 to 2" },
+      { "name": "Heroic", "cost": "11", "disc": "Size 3 to 4" },
+      { "name": "Legendary", "cost": "15", "disc": "Size 5 to 10" },
+      {
+        "name": "Speech",
+        "cost": "(+1)",
+        "disc": "The recipient retains the Power of speech."
+      }
+    ]
+  },
+  {
+    "name": "Sloth/Speed",
+    "classes": [
+      "syker",
+      "huckster",
+      "anouk shaman",
+      "mad scientist",
+      "shaman",
+      "voodooist",
+      "witch"
+    ],
+    "books": ["main"],
+    "rank": "Seasoned",
+    "points": "2",
+    "range": "Smarts",
+    "duration": "Instant (sloth); 5 (speed)",
+    "trappings": "Slowing time, blurred motion, a slippery patch of oil or ice.",
+    "disc": "Sloth lessens celerity and coordination while speed increases it. It halves the target's total movement each round (round up). With a raise, movement is also an action. The target automatically attempts to shake off the effects of sloth at the end of each of his next turns by making a Spirit roll. Success with speed doubles the target's movement (basic Pace and running). With a raise the character also ignores the -2 running penalty.",
+    "mods": [
+      {
+        "name": "Additional Recipients",
+        "cost": "(+1)",
+        "disc": "Speed only. The Power may affect more than one target for 1 additional Power Point each."
+      },
+      {
+        "name": "Area of Effect",
+        "cost": "(+2/+3)",
+        "disc": "Sloth only. For +2 points the Power affects everyone in a Medium Blast Template. For +3 points the area of effect is increased to a Large Blast Template."
+      },
+      {
+        "name": "Quickness",
+        "cost": "(+2)",
+        "disc": "Speed only. The character's total Multi-Action penalty each turn is reduced by 2 (she can do two actions at no penalty or three at -2 each)."
+      },
+      {
+        "name": "Strong",
+        "cost": "(+1)",
+        "disc": "Sloth only. The Spirit roll to shake off sloth's effects is made at -2. Slow/Speed See Sloth/Speed, page 167."
+      }
+    ]
+  },
+  {
+    "name": "Slumber",
+    "classes": ["syker", "huckster", "mad scientist", "shaman"],
+    "books": ["main"],
+    "rank": "Seasoned",
+    "points": "2",
+    "range": "Smarts",
+    "duration": "One hour",
+    "trappings": "A lullaby, blowing powder or sand at targets.",
+    "disc": "Those who favor stealth or want to avoid harming their foes are drawn to this spell, which puts its victims into a deep and restful sleep. Anyone affected by slumber must make a Spirit roll (at -2 if the caster got a raise on her arcane skill roll). Those who fail fall asleep 168 SAVAGE WORLDS for the Duration of the spell. Very loud noises or attempts to physically wake a sleeper (by shaking him, for example), grant another Spirit roll.",
+    "mods": [
+      {
+        "name": "Area of Effect",
+        "cost": "(+2/+3)",
+        "disc": "For +2 points the Power affects everyone in a Medium Blast Template. For +3 points the area of effect is increased to a Large Blast Template."
+      }
+    ]
+  },
+  {
+    "name": "Smite",
+    "classes": ["syker", "mad scientist", "shaman", "voodooist", "witch"],
+    "books": ["main"],
+    "rank": "Novice",
+    "points": "2",
+    "range": "Smarts",
+    "duration": "5",
+    "trappings": "A colored glow, runes, sigils,crackling energy, barbs grow from the blade.",
+    "disc": "This Power is cast on a weapon of some sort. If it's a ranged weapon, it affects one entire magazine, 20 bolts, shells, or arrows, or one full “load” of ammunition (the GM determines the exact quantity for unusual weapons). While the Power is in effect, the weapon's Damage is increased by +2, or +4 with a raise.",
+    "mods": [
+      {
+        "name": "Additional Recipients",
+        "cost": "(+1)",
+        "disc": "The Power may affect more than one target for 1 additional Power Point each."
+      }
+    ]
+  },
+  {
+    "name": "Sound/Silence",
+    "classes": ["huckster", "mad scientist", "shaman"],
+    "books": ["main"],
+    "rank": "Novice",
+    "points": "1",
+    "range": "Smarts *5 (sound); Smarts (silence)",
+    "duration": "Instant (sound); 5 (silence)",
+    "trappings": "Magical effects, a brief ripple in the air, a bell or chime that starts or stops ringing.",
+    "disc": "Sound mimics any known sound or voice, emanating from a point of origin within Range at a volume up to the sound of a loud shout. If used as a Test, the defender opposes the casting roll with Smarts. Silence does the opposite, muting all sound up to a loud shout within a Large Blast Template. A raise on the roll mutes all sound, no matter how loud. Those with Arcane Background (Magic) and Arcane Background (Miracle) cannot activate Powers while silenced.",
+    "mods": [
+      {
+        "name": "Mobile",
+        "cost": "(+1)",
+        "disc": "The caster can move the area of effect up to his arcane skill die type each round."
+      },
+      {
+        "name": "Targeted",
+        "cost": "(+1)",
+        "disc": "Instead of casting silence in an area of effect, the caster may instead target individuals in Range for 1 Power Point each. Each victim resists with Spirit (at -2 if the Power is activated with a raise)."
+      }
+    ]
+  },
+  {
+    "name": "Speak Language",
+    "classes": [
+      "syker",
+      "huckster",
+      "mad scientist",
+      "shaman",
+      "voodooist",
+      "witch"
+    ],
+    "books": ["main"],
+    "rank": "Novice",
+    "points": "1",
+    "range": "Smarts",
+    "duration": "10 minutes",
+    "trappings": " Words, pictures, hand motions.",
+    "disc": "This Power allows a character to speak, read, and write a sapient language other than his own. A raise on the arcane skill roll allows the user to appropriately use and understand slang and dialect as well.",
+    "mods": [
+      {
+        "name": "Additional Recipients",
+        "cost": "(+1)",
+        "disc": "The Power may affect more than one target for 1 additional Power Point each."
+      }
+    ]
+  },
+  {
+    "name": "Stun",
+    "classes": [
+      "syker",
+      "huckster",
+      "anouk shaman",
+      "breaker",
+      "mad scientist",
+      "voodooist",
+      "witch"
+    ],
+    "books": ["main"],
+    "rank": "Novice",
+    "points": "2",
+    "range": "Smarts",
+    "duration": "Instant",
+    "trappings": "Bolts of energy, stun bombs, sonic booms, burst of blinding light.",
+    "disc": "Stun shocks a target with concussive force, sound, light, magical energy, or the like. A successful casting means the victim must make a Vigor roll (at -2 with a raise on the arcane skill roll) or be Stunned (see 106).",
+    "mods": [
+      {
+        "name": "Area of Effect",
+        "cost": "(+2/+3)",
+        "disc": "For +2 points the Power affects everyone in a Medium Blast Template. For +3 points the area of effect is increased to a Large Blast Template."
+      }
+    ]
+  },
+  {
+    "name": "Summon Ally",
+    "classes": ["huckster", "shaman"],
+    "books": ["main"],
+    "rank": "Novice",
+    "points": "2+",
+    "range": "Smarts",
+    "duration": "5",
+    "trappings": "A clay figure that grows into a servant, a tattoo that comes to life.",
+    "disc": "This Power allows the character to summon a magical servant from nothing. The ally typically takes the form of a basic humanoid of the appropriate Size but can appear differently based on the caster's trappings. It materializes anywhere in Range, and with a raise on the arcane skill roll, it's Resilient as well. The ally acts on its creator's Action Card and follows her commands to the best of its ability. It has no personality, creativity, or emotions. When the Power ends or the ally is Incapacitated, it fades into nothingness, leaving no trace behind. The type of servant that can be summoned depends on the caster's Rank. With the GM's approval, the player may swap abilities. If a hero wants an attendant in the form of a wolf, for example, the caster might exchange the Shooting skill for Survival so that the “animal” can track its foes. * Mirror Self costs +2 Power points per Rank above Veteran to a maximum of 10 PPs at Legendary.",
+    "mods": [
+      {
+        "name": "Bite/Claw",
+        "cost": "(+1)",
+        "disc": "The ally can bite or claw at Str+d6."
+      },
+      { "name": "Flight", "(+2)": "The ally can fly at Pace 12." },
+      {
+        "name": "Mind Rider",
+        "cost": "(+1)",
+        "disc": "The caster can communicate and sense through the ally."
+      }
+    ]
+  },
+  {
+    "name": "Telekinesis",
+    "classes": ["syker", "huckster", "mad scientist"],
+    "books": ["main"],
+    "rank": "Seasoned",
+    "points": "5",
+    "range": "Smarts *2",
+    "duration": "5",
+    "trappings": "A wave of the hand, magic wand, steely gaze.",
+    "disc": "Telekinesis is the ability to move objects or creatures (including oneself) with arcane will. It has a Strength of d10, or d12 with a raise. Unwilling opponents resist the caster's arcane skill with an opposed Spirit roll when targeted and at the start of each of their turns afterward until they're released. They can be moved up to the caster's Smarts per turn in any direction, and can be bashed into walls, ceilings, or other obstacles for Str+d6 Damage. Dropped creatures suffer falling Damage as usual. Telekinetic Tools: A caster can wield tools (including weapons) with telekinesis as an action. Use the caster's relevant skill when attacking in this way (not his arcane skill).",
+    "mods": []
+  },
+  {
+    "name": "Teleport",
+    "classes": ["huckster", "mad scientist", "shaman"],
+    "books": ["main"],
+    "rank": "Seasoned",
+    "points": "2",
+    "range": "Smarts",
+    "duration": "Instant",
+    "trappings": "A cloud of smoke, “phasing” out, change into a bolt of lightning.",
+    "disc": "Teleport allows a character to disappear and instantly reappear up to 12″ (24 yards) distant, or double that with a raise. Teleporting to an unseen location incurs a -2 penalty on the arcane skill roll. Opponents adjacent to a character who teleports away don't get a free attack (see Withdrawing from Melee, page 109). If casting teleport on a willing subject, the caster decides where they move to, not the target.",
+    "mods": [
+      {
+        "name": "Additional Recipients",
+        "cost": "(+1)",
+        "disc": "The Power may affect more than one target for 1 additional Power Point each."
+      },
+      {
+        "name": "Teleport Foe",
+        "cost": "(+2)",
+        "disc": "Foes may be targeted by a Touch attack (page 108). This is an action, so the casting must be the second part of a Multi-Action if the attack is successful. The foe resists the casting with an opposed Spirit roll against the arcane skill total and is sent up to 12″ away with success and 24″ with a raise. Foes may not be teleported into solid objects."
+      }
+    ]
+  },
+  {
+    "name": "Wall Walker",
+    "classes": ["syker", "huckster", "mad scientist", "shaman"],
+    "books": ["main"],
+    "rank": "Novice",
+    "points": "2",
+    "range": "Smarts",
+    "duration": "5",
+    "trappings": "Spider-like visage, prickly hairs on hands and feet.",
+    "disc": "Wall walker allows the recipient to walk on vertical or horizontal surfaces. With success, she moves at half her normal Pace. With a raise, she may move at full Pace and even run. If forced to make an Athletics roll to climb or hang on to a surface, she adds +4 to the total.",
+    "mods": [
+      {
+        "name": "Additional Recipients",
+        "cost": "(+1)",
+        "disc": "The caster may affect others at the cost of 1 Power Point each."
+      }
+    ]
+  },
+  {
+    "name": "Warrior's Gift",
+    "classes": [
+      "anouk shaman",
+      "mad scientist",
+      "shaman",
+      "voodooist",
+      "witch"
+    ],
+    "books": ["main"],
+    "rank": "Seasoned",
+    "points": "4",
+    "range": "Smarts",
+    "duration": "5",
+    "trappings": "Gestures, prayer, whispered words, concentration.",
+    "disc": "With a successful arcane skill roll, the recipient gains the benefits of a single Combat Edge chosen by the caster. The caster (not the recipient) must have the same Rank or higher as the Edge's Requirements. With a raise, the recipient gains the Improved version of the Edge (if there is one, and even if he doesn't meet the Rank Requirement).",
+    "mods": [
+      {
+        "name": "Additional Recipients",
+        "cost": "(+1)",
+        "disc": "The Power may affect more than one target for 1 additional Power Point each."
+      }
+    ]
+  },
+  {
+    "name": "Zombie",
+    "classes": ["mad scientist", "voodooist", "witch"],
+    "books": ["main"],
+    "rank": "Veteran",
+    "points": "3+",
+    "range": "Smarts",
+    "duration": "One hour",
+    "trappings": "Carving symbols on corpses, throwing bones, graveyards, “leather” books.",
+    "disc": "Zombie grants animation and basic intelligence to the remains of a once-living being. The summoned horror is obedient but literalminded in its duties. It isn't telepathic, and must be controlled by voice. The being has the physical skills it had in life, but its Smarts, Spirit, and related skills are reset to d4. A raise on the casting roll increases any one of their Traits by one die type (caster's choice). See page 191 for the standard profile of a human zombie. Corpses aren't summoned by this ability, so there must actually be a supply of bodies in Range (GM's call). An undead servant Incapacitated by Damage can't be raised with this Power again—the remaining raw materials are essentially destroyed.",
+    "mods": [
+      {
+        "name": "Additional Zombies",
+        "cost": "(+1)",
+        "disc": "A larger horde can be raised in a single casting by paying an additional 1 Power Point for each extra zombie raised."
+      },
+      {
+        "name": "Armed",
+        "cost": "(+1 per Zombie)",
+        "disc": "The dead rise with a rusting weapon common to their setting and environment. Choose one: </br>Hand Weapon: Str+d6. </br>Ranged Weapon: Range 12/24/48, Damage 2d6."
+      },
+      {
+        "name": "Armor",
+        "cost": "(+1 per Zombie)",
+        "disc": "The horrors crawl from their grave wearing 2 points of Armor. This might be old chain mail, rusting plate, rotting bulletproof vests, etc."
+      },
+      {
+        "name": "Mind Rider",
+        "cost": "(+1)",
+        "disc": "The caster can communicate and sense through one of the undead he's conjured. If it's destroyed, he may jump to any of the others currently under his control."
+      },
+      {
+        "name": "Permanent",
+        "cost": "(+1)",
+        "disc": "The zombie is given unlife until destroyed (Incapacitated by Wounds). This has no additional cost, but the Power Points used to raise it are invested and unavailable until it's destroyed. The necromancer who raised it may terminate its unlife at any time."
+      }
+    ]
+  },
+  {
+    "name": "Banshee's Blessing",
+    "classes": ["anouk shaman"],
+    "books": ["deadlands lost colony"],
+    "rank": "Novice",
+    "points": "5",
+    "range": "Self",
+    "duration": "5",
+    "trappings": "na",
+    "disc": "Banshee's blessing makes anouks and other chosen allies resistant to harm and resilient in the face of extreme danger. The Power creates a dome of barely visible violet energy in a Large Burst Template centered on the shaman. All friendly characters within the template gain +2 Toughness, or +4 with a raise. Any anouk or Banshee Born characters also gain the Hardy monstrous ability (see Savage Worlds)! Banshee's blessing doesn't stack with protection. Each has its own advantage depending on the tactical situation— protection allows more flexibility. Banshee's blessing is Stronger in certain situations but requires the group to bunch up, making them more vulnerable to area effect attacks.",
+    "mods": []
+  },
+  {
+    "name": "Banshee's Howl",
+    "classes": ["anouk shaman"],
+    "books": ["deadlands lost colony"],
+    "rank": "Seasoned",
+    "points": "5",
+    "range": "Spirit *2",
+    "duration": "5",
+    "trappings": "na",
+    "disc": "This Power focuses Banshee's turbulent winds into a violent storm that disrupts the shaman's foes. The anouks call such clouds the tornakijkdo. With success, the caster places a Large Blast Template anywhere within Range. Anyone touched by the template is Distracted, and Vulnerable with a raise (the status is removed at the end of their turn after exiting the storm). Once per turn, the shaman may move the storm up to 12” (24 yards) each round as a free action.",
+    "mods": [
+      {
+        "name": "Tornakijkdo",
+        "cost": "(+3)",
+        "disc": "The area of effect is 25” (50 yards) in diameter and 50' (100 yards) high. Flying vehicles caught in the storm must make a Piloting roll or crash into the ground for 4d6 Damage."
+      }
+    ]
+  },
+  {
+    "name": "Banshee's Rage",
+    "classes": ["anouk shaman"],
+    "books": ["deadlands lost colony"],
+    "rank": "Novice",
+    "points": "2",
+    "range": "Spirit",
+    "duration": "5",
+    "trappings": "na",
+    "disc": "Banshee's rage grants the recipient one additional Action Card at the beginning of each round, or two with a raise. It stacks with all other abilities that grant additional cards.",
+    "mods": [
+      {
+        "name": "Additional Recipients",
+        "cost": "(+1)",
+        "disc": "The Power may affect more than one character for 1 additional Power Point each."
+      }
+    ]
+  },
+  {
+    "name": "Breakdown",
+    "classes": ["breaker"],
+    "books": ["deadlands lost colony"],
+    "rank": "Novice",
+    "points": "3",
+    "range": "Smarts",
+    "trappings": "na",
+    "duration": "Instant",
+    "disc": "Breakdown is used to rend physical matter into its component parts. This was once part of the process of creation, but since the EXFOR virus breakers can break down matter faster than they did before. The breaker targets an item or being, and if his Transmute roll is successful, causes 3d6 Damage against its Hardness or Toughness, or 4d6 with a raise. Damage against an object with a Hardness score can't usually Ace, but Damage from breakdown does! Use the Object Hardness table in Savage Worlds as a rule for common items. Most military grade Armor, hardware, and tech on Banshee is Hardness 12 to 14. Targets with Heavy Armor are more resistant even to nanobots and require the Heavy Weapon Power Modifier to affect. If the target of the attack is part of a larger system, it has whatever effect the GM deems appropriate. Disabling the instrument panel on a starship, for example, affects whatever system it controlled—such as Handling, weapons, life support, etc. Breaking down the wheel of an APC causes it to make a maneuvering roll.",
+    "mods": [
+      {
+        "name": "Area Effect",
+        "cost": "(+2/+3)",
+        "disc": "The Power affects everything in a Medium or Large Blast Template."
+      }
+    ]
+  },
+  {
+    "name": "Haywire",
+    "classes": ["breaker"],
+    "books": ["deadlands lost colony"],
+    "rank": "Novice",
+    "points": "2",
+    "range": "Spirit",
+    "trappings": "na",
+    "duration": "5",
+    "disc": "A breaker's ‘bot swarm can sabotage all mechanical and electronic devices in a particular area with this Power. To do so, the breaker places a Medium Burst Template anywhere in Range. All Trait rolls made with a mechanical, electrical, or electronic item are made at -2, or -4 with a raise. Haywire has no effect on simple tools such as hammers, swords, or knives—only complex devices with moving or electric/electronic components. As an action, and only once on his turn, the breaker may move the ‘bot swarm (template) up to 12”.",
+    "mods": [
+      {
+        "name": "Area of Effect",
+        "cost": "(+2)",
+        "disc": "For +2 Power Points haywire affects everything in a Large Burst Template."
+      }
+    ]
+  },
+  {
+    "name": "Backwash",
+    "classes": ["syker"],
+    "books": ["deadlands lost colony"],
+    "rank": "Seasoned",
+    "points": "3",
+    "range": "Smarts *2",
+    "trappings": "na",
+    "duration": "Instant",
+    "disc": "This dangerous and highly-specialized Power allows a syker to send a Powerful and dangerous surge along a supernatural link from a target to its source. If an ally is the subject of puppet, for example, a syker could use backwash to send a mental blast back along the psionic link and attack the puppeteer. The syker chooses a character within Range who is currently affected by another character's Power, benign or otherwise and rolls Psionics. If she's successful, a Powerful blast of psychic energy travels from the target to the caster, causing 3d6 Damage (4d6 with a raise, as usual). Only magical Armor (such as the protection Power) protects against this psychic surge.",
+    "mods": []
+  },
+  {
+    "name": "Telekinetic Squeeze",
+    "classes": ["syker"],
+    "books": ["deadlands lost colony"],
+    "rank": "Seasoned",
+    "trappings": "na",
+    "points": "3",
+    "range": "Smarts *2",
+    "duration": "Instant",
+    "disc": "Some sykers have refined their telekinetic Powers to the point they can target specific parts of a foe's body. Telekinetic squeeze allows them to pull, twist, and tear at bones, internal organs, and other vitals, often leaving a victim nothing but a mangled pile of bloody flesh and broken bones. Among the more bloody-minded, this Power is sometimes called “bone ripper” or “Aztec surprise;” the last coming from the ability of a few to actually rip their victims' still-beating hearts out of their chests! Regardless of how it manifests, the attack is an opposed roll between the syker's Psionics and the victim's Vigor. Because the refinement necessary to execute an attack on unseen internal organs is so precise, the syker suffers a -2 penalty to her Psionics roll. Success inflicts 2d10 Damage that ignores all but arcane Armor. A raise adds a bonus die as usual. Telekinetic squeeze doesn't affect undead, constructs, or other creatures without biological systems.",
+    "mods": []
+  },
+  {
+    "name": "Ammo Whammy",
+    "classes": ["huckster"],
+    "books": ["deadlands"],
+    "rank": "Seasoned",
+    "trappings": "na",
+    "points": "4",
+    "range": "Self",
+    "duration": "5",
+    "disc": "This Power can only be used by a huckster with the Hexslinging Edge (see page 66). Arcane runes on the barrel of a hex gun trigger various Powers on the bullets inside, giving them extra punch and other surprises for those foolish enough to tangle with him! While the Power is active, the hexslinger can choose any one of the effects below to apply to each shot fired from his weapon (or two simultaneous effects with a raise!).",
+    "mods": [
+      {
+        "name": "Argent Agony",
+        "cost": "na",
+        "disc": "The shot affects a being as though it were composed of its Weakness. The hexslinger must know the creature's Weakness, and it doesn't work against certain Powerful foes, such as the Servitors. The manitous don't have the ability to match that kind of mojo."
+      },
+      {
+        "name": "Bullet With Your Name On It",
+        "cost": "na",
+        "disc": "Add +2 to the hexslinger's Shooting roll."
+      },
+      {
+        "name": "Explosive",
+        "cost": "na",
+        "disc": "The shot causes Damage in a Small Blast Template."
+      },
+      {
+        "name": "Flare",
+        "cost": "na",
+        "disc": "Firing this “flare” shot into the night sky removes Illumination penalties in the immediate area for one minute. If fired indoors, roll a d6: On a 2–6, the bullet ignites flammable materials it strikes."
+      },
+      {
+        "name": "Ghost Bullet",
+        "cost": "na",
+        "disc": "The shot is half in this world and half in the Hunting Grounds, giving it AP 6."
+      },
+      {
+        "name": "Kentucky Windage",
+        "cost": "na",
+        "disc": "Doubles the shot's Range."
+      },
+      {
+        "name": "Loaded For Bear",
+        "cost": "na",
+        "disc": "The shot is a Heavy Weapon and increases the gun's base Damage one die type. A pistol that does 2d6 does 2d8 with this deadly round."
+      },
+      {
+        "name": "Sacramento Surprise",
+        "cost": "na",
+        "disc": "This shot surges with Power of some sort—fire, electricity, cold, etc. It's especially useful against creatures with an Environmental Weakness!"
+      }
+    ]
+  },
+  {
+    "name": "Curse",
+    "classes": ["shaman", "voodooist", "witch"],
+    "books": ["deadlands"],
+    "rank": "Seasoned",
+    "trappings": "na",
+    "points": "5",
+    "range": "Touch",
+    "duration": "Instant",
+    "disc": "Some practitioners of the arcane arts heal their allies. Others inflict sickness upon their enemies. To use this particularly nasty spell, the caster makes an arcane skill roll opposed by the victim's Spirit roll. Failure means the victim suffers a level of Fatigue immediately and at sunset each day thereafter (further castings of curse have no additional effect). Once the accursed becomes Incapacitated, he makes a Vigor roll each day to avoid death. Breaking the Curse: The curse can be lifted by the original caster at will, and ends automatically if she's slain. Dispel also removes a curse, though each individual may only try once—if failed it's beyond her abilities.",
+    "mods": []
+  },
+  {
+    "name": "Holy Symbol",
+    "classes": ["shaman", "voodooist", "witch"],
+    "books": ["deadlands"],
+    "rank": "Novice",
+    "trappings": "na",
+    "points": "3",
+    "range": "Self",
+    "duration": "5",
+    "disc": "Evil critters find it hard to attack a pious wayfarer with true faith—and a symbol of her deity to back it up. Once invoked, any supernaturally evil creature (Marshal's call) that wants to make a direct, physical attack on the bearer of the symbol must make a Spirit roll as a free action (the creature subtracts 2 if the blessed cast with a raise). Attacks include area effect attacks that would catch the bearer in their template, but wouldn't affect knocking a shelf over to land on the bearer, for example. Holy symbol has no effect on Tests or other nondamaging attacks. The blessed must have an actual holy symbol to invoke the miracle. No holy symbol, no holy symbol. Comprende, amigo? An improvised symbol works—a broken window frame in the shape of a cross instead of an actual crucifix, for example, but the blessed subtracts 2 from the invocation without a proper symbol. Vampires: Bloodsuckers (those in the Savage Worlds core book and the nosferatu in this one) have a built-in Weakness to holy symbols. A character with this miracle may use either as she chooses—the Power (using Power Points and requiring an arcane skill roll) or the less Powerful rules outlined in the Weakness (which has no raise effect).",
+    "mods": [
+      {
+        "name": "Area Effect",
+        "cost": "(+2/+3)",
+        "disc": "For +2 points the Power affects all allies within a Medium Blast Template centered on the caster. It does not prevent creatures from entering the area, only their attacks against those within it. For +3 points the area of effect is increased to a Large Blast Template."
+      },
+      {
+        "name": "Strong",
+        "cost": "(+1)",
+        "disc": "Spirit rolls by the creature are made at -2 (-4 with a raise)."
+      }
+    ]
+  },
+
+  {
+    "name": "Numb",
+    "classes": ["huckster", "mad scientist", "shaman"],
+    "books": ["deadlands"],
+    "rank": "Novice",
+    "trappings": "na",
+    "points": "2",
+    "range": "Spirit",
+    "duration": "5",
+    "disc": "Numb alleviates pain caused by injury. With a success on the arcane skill roll, the caster and all allies within the caster's Spirit in tabletop inches ignore 1 point of Wound or Fatigue penalties, or 2 with a raise. Numb also nullifies any temporary Injury Table results for its Duration. A character made Lame by a hit to the leg, for example, can move normally while numbed. The Power has no effect on permanent Injuries.",
+    "mods": []
+  },
+  {
+    "name": "Sanctify",
+    "classes": ["shaman", "voodooist", "witch"],
+    "books": ["deadlands"],
+    "rank": "Veteran",
+    "trappings": "na",
+    "points": "10",
+    "range": "Special",
+    "duration": "Until the next sunset Significant or important places might become permanently 'sanctified'",
+    "disc": "a sacred area that causes harm to evil creatures. Such locales are the result of long-term affiliation with a religion or belief. They usually coincide with a structure of significant ceremonial significance, such as a cathedral, but might also arise from the scene of some great sacrifice, triumph, or tragedy. A blessed can replicate these effects on a temporary basis by strenuous prayer and devotion. The process takes four straight hours of meditation and rituals appropriate to his religion or beliefs. Once that's complete, the blessed makes his Faith roll. Failure simply means the time is wasted. A Critical Failure means the Powers that be will not sanctify this particular place and the ritual can't be attempted at this location until some significant evil is defeated (Marshal's call). Success means an area roughly 30 yards square is anathema to the forces of darkness. Any supernaturally evil creature (GM's call) that attempts to enter the sacred ground must make a Spirit roll at the start of each round (as a free action) or suffer Fatigue, at -2 with a raise on the Faith roll. This can lead to Incapacitation but not death.",
+    "mods": []
+  },
+  {
+    "name": "Trinkets",
+    "classes": ["huckster", "metal mage"],
+    "books": ["deadlands"],
+    "rank": "Novice",
+    "trappings": "na",
+    "points": "3",
+    "range": "Smarts",
+    "duration": "5",
+    "disc": "Trinkets allows a huckster to create a minor ,mundane item weighing less than one ,pound—a Derringer, a playing card, hand ,mirror, and so on. With a raise, the Duration ,is in minutes instead of rounds (and is ,Maintained in minutes as well if desired). ,Conjured items typically appear in a ,pocket, pouch, or bag to hide the magic that ,conjures them, but it's not strictly necessary. ,Once the Duration expires, the item fades ,from reality. If the shyster used conjured ,coins to buy something, he might be in ,trouble if the merchant figures out who ,swindled him. Metal mages may also take the huckster Power trinkets. The device (Trapping) can be a clockwork assembler or some such, or it can just be a bag of random components the metal mage “assembles” when he activates the Power. In any case, he always uses his Weird Science skill.",
+    "mods": [
+      {
+        "name": "COMPLETE",
+        "cost": "(+1)",
+        "disc": "The object is a complete set or loaded (for firearms), though it still must fit under the weight limit. A deck of cards has all 54 cards in it, a firearm is completely loaded, and so on."
+      },
+      {
+        "name": "WEIGHT",
+        "cost": "(+2)",
+        "disc": "The item can weigh up to two pounds."
+      }
+    ]
+  },
+  {
+    "name": "Wilderness Walk",
+    "classes": ["shaman"],
+    "books": ["deadlands"],
+    "rank": "Novice",
+    "trappings": "na",
+    "points": "2",
+    "range": "Self",
+    "duration": "One hour",
+    "disc": "Wilderness walk asks the earth spirits to move the shaman in and out of the Hunting Grounds as he travels, shortening arduous treks and concealing his path. Shamans use this Power to communicate with their allies across vast distances and spy on their foes! After walking at least one mile in the wilderness (GM's call), every three miles count as one (it has no effect on Pace) and the shaman's tracks are impossible to trace other than short sections. With a raise on the arcane skill roll, every five miles count as one.",
+    "mods": [
+      {
+        "name": "Additional Recipients",
+        "cost": "(+1)",
+        "disc": "The Power may affect more than one target for 1 additional Power Point each."
+      }
+    ]
+  },
+  {
+    "name": "Breakdown (MM)",
+    "classes": ["metal mage"],
+    "books": ["deadlands companion"],
+    "rank": "Novice",
+    "trappings": "na",
+    "points": "2",
+    "range": "Smarts",
+    "duration": "Instant",
+    "disc": "Metal mages can create gizmos that cause other mechanical devices to jam, breakdown, or malfunction. The caster chooses any device with moving or connected parts (GM’s call but no “simple” tools) in Range and makes a Weird Science roll. If successful, those using the item subtract 2 from their totals, and it breaks on a Critical Failure. Both effects work like the All Thumbs Hindrance and do not stack with it. Casting breakdown on a device that’s already suffering this penalty counts as a raise—see below. With a raise, the device suffers an immediate breakdown, and if it’s a weird science gizmo or infernal device, the user must immediately roll on its appropriate Malfunction Table as well. Either result can be removed with a Repair roll, which takes an action if just removing the penalty or 1d6 hours if broken.",
+    "mods": [
+      {
+        "name": "Additional Recipients",
+        "cost": "(+1)",
+        "disc": "The Power may affect an additional item for 1 additional Power Point each."
+      }
+    ]
+  },
+  {
+    "name": "Mend",
+    "classes": ["metal mage"],
+    "books": ["deadlands companion"],
+    "rank": "Novice",
+    "trappings": "na",
+    "points": "3",
+    "range": "Smarts",
+    "duration": "Instant",
+    "disc": "Mend allows a metal mage to repair Damage done to complex machines— essentially any device that has Wounds, like vehicles or certain types of sentient constructs. It may take the form of a clockwork toolkit, multi-tool, or other repair gizmo of the metal mage’s design. Fixing a machine’s Wounds is a Weird Science roll. A success repairs one Wound and a raise repairs two. If the casting fails or does not heal all the Damage, the metal mage may try again. On a Critical Failure, the Damage can only be repaired through normal hard work and replacement parts (see Repair in Savage Worlds).",
+    "mods": [
+      {
+        "name": "Critical Hits",
+        "cost": "(+2)",
+        "disc": "The inventor can instead attempt to fix a vehicular Critical Hit by casting mend. Like repairing Wounds, this may be done multiple times."
+      },
+      {
+        "name": "Expel Gremlins",
+        "cost": "(+1)",
+        "disc": "A successful Weird Science roll removes one gremlin from a machine or all gremlins with a raise. (See Gremlins in Deadlands: The Weird West)."
+      }
+    ]
+  },
+  {
+    "name": "Aspect of The Rada Loa",
+    "classes": ["voodooist"],
+    "books": ["deadlands companion"],
+    "rank": "Novice",
+    "trappings": "na",
+    "points": "5",
+    "range": "Self",
+    "duration": "One Hour",
+    "disc": "This power invites a rada loa to “ride” the houngan or mambo’s body for up to one hour. Only one spirit may ride the voodooist at a time, though the caster may drop the spell at any time and start another if she chooses. Aspect of the rada loa invites the spirit into her body, giving her some of its personality (noted in each power). That loa remains for the entire Duration, and no other loa may be invited in until the previous spirit leaves. <br>Range:</br> The voodooist can only cast this spell on herself, though the Range to any target is the caster’s Spirit. This can’t be increased with 18DEADLANDS: THE WEIRD WEST the Range Power Modifier since it’s not the Range of the power itself.",
+    "mods": [
+      {
+        "name": "Agwe",
+        "cost": "na",
+        "disc": "This loa rules over the great waters and all that dwells within them. He is most often depicted as a tall, handsome man with deep green eyes wearing formal clothes, crying salt tears for the slaves transported across the ocean during the Trans-Atlantic slave trade. Those ridden by Agw  are morose and easily brought to tears. The spell allows the voodooist mastery of the water for the Duration of the power. She may walk upon it, breathe beneath its surface, and swim at her full Pace (plus running die if desired). With a raise, she adds +2 to her total Pace each round."},
+        {"name": "Baron Samedi",
+        "cost": "na",
+        "disc": "Tamedi appears as a tall man in black hat, dark glasses, formal coat with tails, cotton plugs in his nose, and painted skull face. He is a dirty-minded and foul-mouthed loa who relishes human vices. Samedi is the loa of the dead and gatekeeper to the Hunting Grounds. Anyone possessed by the Baron becomes bawdy and salacious. Samedi temporarily severs an undead creature’s link to the Hunting Grounds. If a creature with the undead Special Ability moves adjacent to the voodooist, it must make a Vigor roll (at –2 if cast with a raise) or be Stunned."
+      },
+      {
+        "name": "Damballa",
+        "cost": "na",
+        "disc": "The ancient creator of the world once lay beneath the earth in serpent form. It was he who created the mountains and the skies and the seas and all that humanity beholds. He’s a powerful, pristine loa who communicates messages of wealth, prosperity, and health through dreams. Casters who invite Damballa into their body become more patient and kind, with a long view to the cosmos and all who dwell in it. You can reroll any Vigor roll for the Duration of the spell. If using the Wealth rules from Savage Worlds, you can also reroll any Wealth roll for the Duration of the spell. If not, reroll any Persuasion rolls to haggle or otherwise negotiate prices to get a better deal (a discount the GM feels is appropriate for the particular situation). All rolls are made at +1 if the spell is cast with a raise."
+      },
+      {
+        "name": "Erzulie Freda",
+        "cost": "na",
+        "disc": "Erzulie appears as a “black Madonna,” a loa of love and femininity. While beautiful and kind, she’s also quick-tempered. When ridden by Erzulie, the voodooist also adopts these traits. The power grants the hero favor with a single individual who is romantically inclined toward his or her gender and starts with a Neutral or better Reaction (see the Reaction Table in Savage Worlds). This isn’t the puppet power— the individual isn’t a mind-controlled slave—he or she is just eager to please the houngan or mambo. A raise means the target is even more eager to aid the voodooist. Once the power expires, the target may rethink his or her commitment depending on the situation. Of course the voodooist can always channel Erzulie Fr da and rekindle the relationship anew."
+      },
+      {
+        "name": "Papa Legba",
+        "cost": "na",
+        "disc": "Legba is the great communicator. He is depicted as an old man with a cane, wearing a broadrimmed straw hat and smoking a pipe, and is often accompanied by a loyal dog. When he rides an individual, she becomes more patient, wise, and sympathetic. The houngan or mambo gets a free reroll on any Persuasion, Intimidation, or Taunt Tests for the Duration of the possession (at +1 if cast with a raise)."
+      }
+    ]
+  },
+  {
+    "name": "Fury Of The Petro Loa",
+    "classes": ["voodooist"],
+    "books": ["deadlands companion"],
+    "rank": "Novice",
+    "trappings": "na",
+    "points": "5",
+    "range": "Self",
+    "duration": "5",
+    "disc": "Petro loa are more aggressive or ill-tempered than rada loa, so they’re primarily useful in dangerous situations such as combat. Like aspect of the rada loa, fury of the petro loa invites these spirits into the voodooist’s body. Only one spirit may ride the voodooist at a time, though the caster may drop the spell at any time and start another if she chooses. Range: The voodooist can only cast this spell on herself, though the Range to the target is equal to the caster’s Spirit. This can’t be increased with the Range Power Modifier since it’s not the Range of the power itself. Other Aspects: Most loas have more than one aspect. Those listed here are the most common favors requested by heroic voodooists in the Weird West.",
+    "mods": [
+      {
+        "name": "Erzulie Dantor",
+        "cost": "na",
+        "disc": "Erzulie Dantor is an aspect of Erzulie Fr da born of the bloody Haitian Revolution. She appears as a black Madonna with a scar on her cheek and a severed tongue—cut out to ensure she kept the secrets of the revolution. Anyone ridden by Erzulie gains a bleeding cut on the tongue (no game effect) and the Vengeful (Minor) Hindrance for the Duration of the power. The fearful Dantor is a vengeful protector. Anyone who harms the voodooist (causes her to be Shaken, Stunned, or Wounded) must make an immediate Spirit roll (at −2 if cast with a raise) or be Stunned. Targets of Erzulie’s rage see her ghostly visage emerge from the voodooist. She races toward them, screeching with the stump of her severed tongue, eyes black as night and blood-stained hands reaching out for vengeance. She passes through their form and chills them to the very marrow…then disappears."
+      },
+      {
+        "name": "Marinette Bwa Chech (“Marinette of the Dry Arms”)",
+        "cost": "na",
+        "disc": "This terrifying petro loa is a tall, almost skeletal figure with wild hair, mad eyes, and parched skin wearing ragged, blood-stained clothes. Those ridden by Marinette gain the Mean Hindrance.</br> Marinette extends her host’s Fighting attacks to Reach 2, and Str+d6, AP 2 if unarmed. The damage is increased to Str+d8 if cast with a raise. Anyone struck by the voodooist sees a ghostly image of the horrific Marinette transposed over the attacker, screaming obscenities in her mad fury as she reaches out with her horrific dry arms and long, jagged claws."
+      },
+      {
+        "name": "Met Kalfu",
+        "cost": "na",
+        "disc": "Kalfu is the dark side of Papa Legba. He appears as a suave man in a top hat with a forked tongue. He is another loa of the crossroads between worlds, with influence over dark spirits and emotions. Those who invoke Kalfu gain the Ruthless (Minor) Hindrance. Voodooists who already have the Hindrance do not suffer the −2 to the Spirit roll below.</br> As master of strange, spiritual energies, Kalfu can sever a target’s ties with Fate itself. Any time a foe spends a Benny and the voodooist wants to counter it, he may make a Spirit roll at –2 (or no penalty if cast with a raise). If successful, no Benny can be spent on that roll. With a raise, the Benny is lost as well!</br> When an opponent’s luck is countered, he sees a ghostly image of Kalfu greedily drawing the energy into his mouth and devouring it with glee"
+      }
+    ]
+  },
+  {
+    "name": "Beguile",
+    "classes": ["witch"],
+    "books": ["deadlands companion"],
+    "rank": "Novice",
+    "trappings": "na",
+    "points": "3",
+    "range": "Spirit",
+    "duration": "Until the next sunrise or sunset",
+    "disc": "Witches know the easiest path to get their way is to charm gullible paramours into peacefully doing what they want. Beguile is an opposed roll of the witch’s Spellcasting versus the target’s Spirit. It works only on those romantically attracted to one of the witch’s gender, and only if they have a Neutral or higher attitude toward her (see the Reaction Table accompanying Persuasion in Savage Worlds). If successful, the target’s attitude improves one level, or two with a raise. Unlike the puppet power, the target isn’t mind controlled. He or she has free will, but is genuinely enamored with the witch and wants to do whatever he or she can to please her. Exactly what that means depends on the character. A blackhearted villain beguiled by a witch might push his own wife over a cliff to be with her. An average citizen would never think of physically or openly hurting his loved ones for her, but might cheat on them behind closed doors. A noble soul might even sacrifice himself—if he believes it’s the only way to save the beloved witch’s life. The power wears off at the next sunrise or sunset, whichever comes next. It may not be maintained, but may be recast.",
+    "mods": []
+  },
+  {
+    "name": "Dread",
+    "classes": ["witch"],
+    "books": ["deadlands companion"],
+    "rank": "Seasoned",
+    "trappings": "na",
+    "points": "5",
+    "range": "Spirit",
+    "duration": "One Day",
+    "disc": " Given their reliance on the Reckoners’ dark energy, it’s not surprising witches seek dark places where their powers reign supreme. And when they can’t find such places, they create them. Dread allows a witch to increase the Fear Level by 1 with a success, or 2 with a raise. The area affected is 25” (50 yards) in diameter.",
+    "mods": [
+      {
+        "name": "AREA EFFECT",
+        "cost": "(+3)",
+        "disc": "The effect covers an area roughly 50” (100 yards) in diameter."
+      }
+    ]
+  },
+  {
+    "name": "Transform",
+    "classes": ["witch"],
+    "books": ["deadlands companion"],
+    "rank": "Seasoned",
+    "trappings": "na",
+    "points": "5",
+    "range": "Touch",
+    "duration": "One Hour",
+    "disc": "Tales of witches turning their enemies into frogs is the stuff of fairy tales. Mostly. It can be done, it just takes much longer than those stories would have one believe. Transform curses a target into becoming a common animal of Size −2 to –3 (witch’s choice). A successful Touch on an unwilling victim causes him to make a Spirit roll (at –2 with a raise on the Spellcasting roll). If the victim fails, he transforms—his clothes and other personal items falling around him (they don’t transform). Breaking the Curse: The curse can be lifted by the original caster at will, and ends automatically if she’s slain. Dispel also ends the transformation.",
+    "mods": [
+      {
+        "name": "True Curse",
+        "cost": "(+0)",
+        "disc": "A witch can transform a target permanently but the process takes much longer. The Range becomes one mile rather than Touch, but requires a personal item of some sort—a lock of hair, a ring, or something else with some physical or emotional attachment to the target. With a successful casting, the victim begins to take on the animal’s</br> characteristics over the next 12 hours. A man being turned into a frog might be compelled to watch buzzing flies for the first 10 hours, then actively attempt to eat them in the final two. A woman transforming into a pig might be excessively hungry throughout the day, eating more and more with less care as to quality until finally lying in cooling mud in the final hours.</br> In the final 13th hour, the transformation becomes shockingly apparent. The victim writhes in pain as his body changes into the target creature. Eyes bulge like a toad, noses elongate to snouts, feet crumple into hooves, and so on. The process is excruciating and the victim squeals, barks, or screeches in pain as his bones crack and skin tears. He suffers 3 points of Wound penalties though he’s not actually Wounded (any powers or Edges that reduce Wound penalties apply here, too). While the transformation is changing the victim, it can still be stopped if the caster chooses (or dies). Attempts to dispel incur a −4 penalty and each individual may only try once—if she fails it’s beyond her abilities. Once the individual is transformed from a True Curse it’s generally permanent without some elaborate quest devised by the Marshal to remove it."
+      }
+    ]
+  }
+]

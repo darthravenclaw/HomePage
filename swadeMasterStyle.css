@@ -1,0 +1,102 @@
+:root {
+  --font-large: 1.8em;
+  --font-small: 1.1em;
+  --color-Selected: hls(204, 51%, 78%);
+}
+
+.powerCardHolder,
+.edgeCardHolder {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(50%, 3fr));
+  gap: 0.25rem;
+  margin-top: 1rem;
+}
+.powerCard,
+.edgeCard {
+  border: 1px solid black;
+  background-color: white;
+  padding: 0.5rem;
+  font-size: 20px;
+}
+.name {
+  font-weight: bold;
+  font-size: 32px;
+}
+.modName {
+  font-weight: bold;
+  font-size: 20px;
+}
+.powerCard > div,
+.edgeCard > div {
+  margin-bottom: 0.25rem;
+  padding: 2px;
+}
+.powerCard > .disc,
+.edgeCard > disc {
+  font-size: 20px;
+}
+.cardTop {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hide {
+  display: none;
+}
+#header {
+  display: flex;
+  flex-direction: column;
+}
+
+.catContainer,
+.bookContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.spellBtn {
+  justify-content: flex-end;
+  color: hsl(204, 70%, 91%);
+  background-color: hsl(204, 70%, 51%);
+  border-color: hsl(204, 70%, 41%);
+  border-radius: 5.5px;
+  font-size: 1.3em;
+  height: auto;
+  float: right;
+}
+.sortDiv,
+.catDiv,
+.spellDiv {
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  color: hsl(204, 70%, 51%);
+  padding: 2px;
+  margin: 3px;
+  height: 1.2em;
+  width: auto;
+  border-radius: 2.5px;
+}
+.selected {
+  color: hsl(204, 70%, 90%);
+  background-color: hsl(204, 70%, 51%);
+}
+.catDivHeader {
+  color: hsl(204, 70%, 10%);
+  text-align: center;
+  align-items: center;
+  padding: 2px;
+  margin: 3px;
+  height: 1.2em;
+  width: auto;
+  border-radius: 2.5px;
+}
+@media only screen and (max-width: 500px) {
+  .cardTop {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

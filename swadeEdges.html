@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="swadeMasterStyle.css" />
+    <script src="./edges.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="header">
+      <div id="searchContainer">
+        <label for="search">Search Powers</label>
+        <input type="search" name="search" id="search" />
+      </div>
+      <div class="bookContainer" id="bookContainer">
+        <div class="catDivHeader">Books</div>
+        <div class="catDiv" data-value="main">Main</div>
+        <div class="catDiv" data-value="deadlands">Deadlands</div>
+        <div class="catDiv" data-value="deadlands companion">
+          Deadlands Companion
+        </div>
+        <div class="catDiv" data-value="deadlands lost colony">
+          Deadlands Lost Colony
+        </div>
+      </div>
+
+      <div class="catContainer" id="categoryContainer">
+        <div class="catDivHeader">Category</div>
+        <div class="catDiv" data-value="Background">Background</div>
+        <div class="catDiv" data-value="Combat">Combat</div>
+        <div class="catDiv" data-value="Power">Power</div>
+        <div class="catDiv" data-value="Weird">Weird</div>
+        <div class="catDiv" data-value="Professional">Professional</div>
+        <div class="catDiv" data-value="Social">Social</div>
+        <div class="catDiv" data-value="Legendary">Legendary</div>
+      </div>
+      <div class="catContainer" id="rankContainer">
+        <div class="catDivHeader">Rank</div>
+        <div class="catDiv" data-value="Novice">Novice</div>
+        <div class="catDiv" data-value="Seasoned">Seasoned</div>
+        <div class="catDiv" data-value="Veteran">Veteran</div>
+        <div class="catDiv" data-value="Heroic">Heroic</div>
+        <div class="catDiv" data-value="Legendary">Legendary</div>
+      </div>
+      <div class="catContainer" id="reqContainer">
+        <div class="catDivHeader">requirements</div>
+        <div class="catDiv" data-value="Smarts">Smarts</div>
+        <div class="catDiv" data-value="Strength">Strength</div>
+        <div class="catDiv" data-value="Agility">Agility</div>
+        <div class="catDiv" data-value="Vitality">Vitality</div>
+        <div class="catDiv" data-value="Spirit">Spirit</div>
+      </div>
+    </div>
+    <div class="edgeCardHolder" data-edge-cards-container></div>
+  </body>
+  <template data-edge-card-template>
+    <div class="edgeCard">
+      <div class="cardTop data-edge-top">
+        <div class="name" data-edge-name>test</div>
+      </div>
+      <div class="books" data-edge-books>test</div>
+      <div class="category" data-edge-cat>test</div>
+      <div class="rank" data-edge-rank>test</div>
+      <div class="Req" data-edge-req>test</div>
+      <div class="Disc" data-edge-disc>this is a test</div>
+    </div>
+  </template>
+</html>
